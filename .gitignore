@@ -1,0 +1,6 @@
+# Editors
+.vscode
+
+# Fucking node
+node_modules/
+
