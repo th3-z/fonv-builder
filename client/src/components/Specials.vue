@@ -3,7 +3,9 @@
         <div v-bind:key="special.id" v-for="special in specials">
             <Special v-bind:special="special"/>
         </div>
-        <p>Remaining points: {{remainingSpecial}}</p>
+        <p
+            v-bind:class="{'error':remainingSpecial < 0}"
+        >Remaining points: {{remainingSpecial}}</p>
     </div>
 </template>
 
@@ -42,5 +44,7 @@ export default {
 </script>
 
 <style scoped>
-
+    .error {
+        color: red;
+    }
 </style>

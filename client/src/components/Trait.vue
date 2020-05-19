@@ -4,14 +4,22 @@
       >
         {{ trait.name }}
       </b-form-checkbox>
-      <b-button variant="outline-primary">Add</b-button>
+      <b-button 
+        variant="outline-primary"
+        @click="addTrait(trait.id)"
+      >Add</b-button>
     </div>
 </template>
 
 <script>
+  import { mapActions } from 'vuex';
+
     export default {
         name: 'Trait',
-        props: ['trait']
+        props: ['trait'],
+        methods: {
+          ...mapActions(['addTrait'])
+        }
     }
 </script>
 

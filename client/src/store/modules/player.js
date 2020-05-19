@@ -11,12 +11,12 @@ const getters = {
 const actions = {
     async newPlayer({ commit }) {
         const response = await axios.get(process.env.VUE_APP_ROOT_API + "/new_player");
-        commit('newPlayer', response.data.new_player);
+        commit('setPlayer', response.data.new_player);
     },
 };
 
 const mutations = {
-    newPlayer: (state, player) => (state.player = player),
+    setPlayer: (state, player) => (state.player = player),
 };
 
 export default {
