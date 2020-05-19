@@ -5,6 +5,7 @@ from flask_cors import CORS
 from data.traits import TRAITS
 from data.specials import SPECIALS
 from data.skills import SKILLS
+from data.new_player import NEW_PLAYER
 
 # configuration
 DEBUG = True
@@ -32,6 +33,12 @@ def specials():
 def skills():
     response_object = {'status': 'success'}
     response_object['skills'] = SKILLS
+    return jsonify(response_object)
+
+@server.route('/new_player', methods=['GET'])
+def new_player():
+    response_object = {'status': 'success'}
+    response_object['new_player'] = NEW_PLAYER
     return jsonify(response_object)
 
 if __name__ == '__main__':

@@ -2,13 +2,14 @@
     <div>
         <div v-bind:key="special.id" v-for="special in specials">
             <Special v-bind:special="special"/>
-            {{special}}
         </div>
+        <p>Remaining points: {{remainingSpecial}}</p>
     </div>
 </template>
 
 <script>
-import Special from './Special.vue'
+import Special from './Special.vue';
+import { mapGetters } from 'vuex';
 import axios from 'axios';
 
 export default {
@@ -16,16 +17,27 @@ export default {
     components: {
         Special
     },
-    data() {
-        return {
-            specials: []
+    computed: {
+        ...mapGetters(['player']),
+        remainingSpecial() {
+            let specialsTotal = 0;
+            for(let special in this.player.base_specials) {
+                specialsTotal += this.player.base_specials[special];
+            }
+
+            return this.player.special_points - specialsTotal;
         }
     },
     created() {
         axios.get(process.env.VUE_APP_ROOT_API + "/specials")
             .then(res => this.specials = res.data.specials)
             .catch(err => console.log(err));
-    }
+    },
+    data() {
+        return {
+            specials: []
+        }
+    },
 }
 </script>
 

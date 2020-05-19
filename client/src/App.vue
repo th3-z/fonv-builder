@@ -4,8 +4,8 @@
     <div>
       <b-tabs content-class="mt-3">
         <b-tab title="SPECIAL" active><Specials/></b-tab>
+        <b-tab title="Skills"><Skills/></b-tab>
         <b-tab title="Traits"><Traits/></b-tab>
-        <b-tab title="Stats"><Skills/></b-tab>
         <b-tab title="Perks"></b-tab>
       </b-tabs>
     </div>
@@ -13,6 +13,8 @@
 </template>
 
 <script>
+  import { mapActions } from 'vuex';
+
   import Header from './components/layout/Header.vue'
   import Specials from './components/Specials.vue'
   import Traits from './components/Traits.vue'
@@ -25,7 +27,13 @@
       Specials,
       Traits,
       Skills
-    }
+    },
+    methods: {
+        ...mapActions(['newPlayer'])
+    },
+    created() {
+        this.newPlayer();
+    },
   }
 </script>
 

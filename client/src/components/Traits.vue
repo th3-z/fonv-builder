@@ -8,7 +8,8 @@
 </template>
 
 <script>
-import Trait from './Trait.vue'
+import Trait from './Trait.vue';
+import { mapGetters } from 'vuex';
 import axios from 'axios';
 
 export default {
@@ -16,16 +17,20 @@ export default {
     components: {
         Trait
     },
+    methods: {
+        // ...mapActions(['addTrait'])
+    },
+    computed: mapGetters(['player']),
+    created() {
+        axios.get(process.env.VUE_APP_ROOT_API + "/traits")
+            .then(res => this.traits = res.data.traits)
+            .catch(err => console.log(err));
+    },
     data() {
         return {
             traits: []
         }
     },
-    created() {
-        axios.get(process.env.VUE_APP_ROOT_API + "/traits")
-            .then(res => this.traits = res.data.traits)
-            .catch(err => console.log(err));
-    }
 }
 </script>
 

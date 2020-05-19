@@ -4,6 +4,7 @@
       >
         {{ trait.name }}
       </b-form-checkbox>
+      <b-button variant="outline-primary">Add</b-button>
     </div>
 </template>
 

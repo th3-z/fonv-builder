@@ -5,23 +5,21 @@
             id="sb-skill"
             size="sm"
             class="mb-2"
-            v-model="value"
-            min="1"
-            max="10"
+            v-model="player.base_skills[skill.id].value"
+            min="15"
+            max="100"
             inline
         ></b-form-spinbutton>
     </div>
 </template>
 
 <script>
+    import { mapGetters } from 'vuex';
+
     export default {
         name: 'Skill',
         props: ['skill'],
-        data() {
-            return {
-                value: 5
-            }
-        }
+        computed: mapGetters(['player'])
     }
 </script>
 

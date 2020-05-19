@@ -2,7 +2,6 @@
     <div>
         <div v-bind:key="skill.id" v-for="skill in skills">
             <skill v-bind:skill="skill"/>
-            {{skill}}
         </div>
     </div>
 </template>
