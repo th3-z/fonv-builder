@@ -33,7 +33,7 @@ const actions = {
                 commit('addTraitGeneric', {
                     player: rootState.player.player,
                     trait_id: traitId
-                })
+                });
                 break;
         }
     },
@@ -42,9 +42,8 @@ const actions = {
 const mutations = {
     setTraits: (state, traits) => (state.traits = traits),
 
-    addTraitGeneric({ rootState}, payload) {
-        console.log(payload);
-        rootState.player.player.traits.push(payload.trait_id);
+    addTraitGeneric(state, payload) {
+        payload.player.traits.push(payload.trait_id);
     },
 
     addFourEyes(state, player) {

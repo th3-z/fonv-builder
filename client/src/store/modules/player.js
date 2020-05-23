@@ -1,20 +1,27 @@
 import axios from 'axios';
 
 const state = {
-    player: {}
+    player: {
+        traits: []  
+    }
 };
 
 const getters = {
     player: (state) => state.player,
 
     getPenalties(state, getters, rootState) {
-        let penalties = ["Test"];
+        let penalties = [];
         const traits = rootState.traits.traits;
 
-        for (let traitId in state.player.traits) {
-            let trait = traits.find(trait => trait.id = traitId);
-            penalties = penalties.concat(trait.effects_penalty);
-        }
+        state.player.traits.forEach(function (traitId) {
+            let trait = traits.find(function (trait) {
+                return trait.id === traitId;    
+            });
+            
+            if (trait) {
+                penalties = penalties.concat(trait.effects_penalty);
+            }
+        });
 
         return penalties;
     }
