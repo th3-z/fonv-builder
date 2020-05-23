@@ -10,55 +10,31 @@ SPECIALS = [
     {
         "id": "perception",
         "name": "Perception",
-        "name_short": "PE",
-        "associated_skills": [
-            "energy_weapons",
-            "explosives",
-            "lockpick"
-        ]
+        "name_short": "PE"
     },
     {
         "id": "endurance",
         "name": "Endurance",
-        "name_short": "EN",
-        "associated_skills": [
-            "survival",
-            "unarmed"
-        ]
+        "name_short": "EN"
     },
     {
         "id": "charisma",
         "name": "Charisma",
-        "name_short": "CH",
-        "associated_skills": [
-            "barter",
-            "speech"
-        ]
+        "name_short": "CH"
     },
     {
         "id": "intelligence",
         "name": "Intelligence",
-        "name_short": "IN",
-        "associated_skills": [
-            "medicine",
-            "repair",
-            "science"
-        ]
+        "name_short": "IN"
     },
     {
         "id": "agility",
         "name": "Agility",
-        "name_short": "AG",
-        "associated_skills": [
-            "guns",
-            "sneak"
-        ]
+        "name_short": "AG"
     },
     {
         "id": "luck",
         "name": "Luck",
-        "name_short": "LU",
-        "associated_skills": [
-        ]
+        "name_short": "LU"
     },
 ]

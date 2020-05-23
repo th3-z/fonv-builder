@@ -1,7 +1,8 @@
 NEW_PLAYER = {
     "name": "Courier",
     "gender": "male",
-    "special_points": 40,
+    "special_points": 41,  # Lonesome Road completion adds 1 SPECIAL point
+    "random_books": 4,
     "level": 1,
     "base_specials": {
         "strength": 1,
@@ -18,7 +19,6 @@ NEW_PLAYER = {
             "tagged": False
         },
         "energy_weapons": {
-            "id": "energy_weapons",
             "value": 15,
             "tagged": False
         },

@@ -9,6 +9,7 @@
 <script>
 import Skill from './Skill.vue'
 import axios from 'axios';
+// import computedStats from './lib/skills.js'; // move down into skill
 
 export default {
     name: "Skills",

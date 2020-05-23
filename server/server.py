@@ -6,6 +6,9 @@ from data.traits import TRAITS
 from data.specials import SPECIALS
 from data.skills import SKILLS
 from data.new_player import NEW_PLAYER
+from data.books import BOOKS
+from data.implants import IMPLANTS
+from data.perks import PERKS
 
 # configuration
 DEBUG = True
@@ -33,6 +36,24 @@ def specials():
 def skills():
     response_object = {'status': 'success'}
     response_object['skills'] = SKILLS
+    return jsonify(response_object)
+
+@server.route('/books', methods=['GET'])
+def books():
+    response_object = {'status': 'success'}
+    response_object['books'] = BOOKS
+    return jsonify(response_object)
+
+@server.route('/implants', methods=['GET'])
+def implants():
+    response_object = {'status': 'success'}
+    response_object['implants'] = IMPLANTS
+    return jsonify(response_object)
+
+@server.route('/perks', methods=['GET'])
+def perks():
+    response_object = {'status': 'success'}
+    response_object['perks'] = PERKS
     return jsonify(response_object)
 
 @server.route('/new_player', methods=['GET'])
