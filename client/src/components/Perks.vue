@@ -1,40 +1,40 @@
 <template>
-    <div class="traits-container">
-        <div v-bind:key="trait.id" v-for="trait in traits">
-            <trait v-bind:trait="trait"/>
+    <div class="perks-container">
+        <div v-bind:key="perk.id" v-for="perk in perks">
+            <perk v-bind:perk="perk"/>
         </div>
     </div>
 </template>
 
 <script>
-import Trait from './Trait.vue';
+import Perk from './Perk.vue';
 import { mapGetters } from 'vuex';
 import axios from 'axios';
 
 export default {
-    name: "Traits",
+    name: "Perks",
     components: {
-        Trait
+        Perk
     },
     methods: {
-        // ...mapActions(['addTrait'])
+        // ...mapActions(['addPerk'])
     },
     computed: mapGetters(['player']),
     created() {
-        axios.get(process.env.VUE_APP_ROOT_API + "/traits")
-            .then(res => this.traits = res.data.traits)
+        axios.get(process.env.VUE_APP_ROOT_API + "/perks")
+            .then(res => this.perks = res.data.perks)
             .catch(err => console.log(err));
     },
     data() {
         return {
-            traits: []
+            perks: []
         }
     },
 }
 </script>
 
 <style scoped>
-    .traits-container {
+    .perks-container {
         display: flex;
         flex-wrap: wrap;
     }

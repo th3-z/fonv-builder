@@ -1,15 +1,14 @@
 <template>
-  <b-card class="mb-1 mt-1 ml-1 mr-1 trait-card">
+  <b-card class="mb-1 mt-1 ml-1 mr-1 perk-card">
     <b-form-checkbox
       inline
-      :id="trait.id"
+      :id="perk.id"
       class="mr-1"
     ></b-form-checkbox>
-    <label :for="trait.id">
-      <strong>{{ trait.name }}</strong>
+    <label :for="perk.id">
+      <strong>{{ perk.name }}</strong>
     </label>
-    <p class="benefit">{{ trait.desc_benefit }}</p>
-    <p class="penalty mb-0">{{ trait.desc_penalty }}</p>
+    <p class="benefit">{{ perk.benefit }}</p>
   </b-card>
 </template>
 
@@ -17,16 +16,16 @@
   import { mapActions } from 'vuex';
 
     export default {
-        name: 'Trait',
-        props: ['trait'],
+        name: 'Perk',
+        props: ['perk'],
         methods: {
-          ...mapActions(['addTrait'])
+          ...mapActions(['addPerk'])
         }
     }
 </script>
 
 <style scoped>
-  .trait-card {
+  .perk-card {
     width: 39em;
     min-height: 12em;
   }

@@ -6,7 +6,7 @@
         <b-tab title="SPECIAL" active><Specials/></b-tab>
         <b-tab title="Skills"><Skills/></b-tab>
         <b-tab title="Traits"><Traits/></b-tab>
-        <b-tab title="Perks"></b-tab>
+        <b-tab title="Perks"><Perks/></b-tab>
       </b-tabs>
     </div>
   </div>
@@ -19,6 +19,7 @@
   import Specials from './components/Specials.vue'
   import Traits from './components/Traits.vue'
   import Skills from './components/Skills.vue'
+  import Perks from './components/Perks.vue'
 
   export default {
     name: 'App',
@@ -26,7 +27,8 @@
       Header,
       Specials,
       Traits,
-      Skills
+      Skills,
+      Perks
     },
     methods: {
         ...mapActions(['newPlayer'])
@@ -47,6 +49,5 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.4;
 }
 </style>
