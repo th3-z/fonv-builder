@@ -21,12 +21,12 @@
       name: 'Trait',
       props: ['trait'],
       methods: {
-        ...mapActions(['addTrait']),
+        ...mapActions(['addTrait', 'removeTrait']),
         changeTrait(checked, traitId) {
           if (checked)
             this.addTrait(traitId);
           else
-            console.log("removed");
+            this.removeTrait(traitId);
         }
       }
   }

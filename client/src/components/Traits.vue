@@ -21,7 +21,7 @@ export default {
     computed: {
         ...mapGetters(['traits', 'player']),
         remainingTraits() {
-            return 2;// - this.player.traits.length;
+            return 2 - this.player.traits.length;
         }
     },
 }
