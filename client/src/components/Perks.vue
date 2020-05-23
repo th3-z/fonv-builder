@@ -16,9 +16,6 @@ export default {
     components: {
         Perk
     },
-    methods: {
-        // ...mapActions(['addPerk'])
-    },
     computed: mapGetters(['player']),
     created() {
         axios.get(process.env.VUE_APP_ROOT_API + "/perks")

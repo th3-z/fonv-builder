@@ -3,31 +3,25 @@
         <div v-bind:key="trait.id" v-for="trait in traits">
             <trait v-bind:trait="trait"/>
         </div>
+        <p
+            v-bind:class="{'error':remainingTraits < 0}"
+        >Remaining traits: {{remainingTraits}}</p>
     </div>
 </template>
 
 <script>
 import Trait from './Trait.vue';
 import { mapGetters } from 'vuex';
-import axios from 'axios';
 
 export default {
     name: "Traits",
     components: {
         Trait
     },
-    methods: {
-        // ...mapActions(['addTrait'])
-    },
-    computed: mapGetters(['player']),
-    created() {
-        axios.get(process.env.VUE_APP_ROOT_API + "/traits")
-            .then(res => this.traits = res.data.traits)
-            .catch(err => console.log(err));
-    },
-    data() {
-        return {
-            traits: []
+    computed: {
+        ...mapGetters(['traits', 'player']),
+        remainingTraits() {
+            return 2;// - this.player.traits.length;
         }
     },
 }
@@ -37,5 +31,9 @@ export default {
     .traits-container {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .error {
+        color: red;
     }
 </style>

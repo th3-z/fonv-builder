@@ -7,6 +7,8 @@
         <b-tab title="Skills"><Skills/></b-tab>
         <b-tab title="Traits"><Traits/></b-tab>
         <b-tab title="Perks"><Perks/></b-tab>
+        <b-tab title="Stats"></b-tab>
+        <b-tab title="Other effects"><OtherEffects/></b-tab>
       </b-tabs>
     </div>
   </div>
@@ -20,6 +22,7 @@
   import Traits from './components/Traits.vue'
   import Skills from './components/Skills.vue'
   import Perks from './components/Perks.vue'
+  import OtherEffects from './components/OtherEffects.vue'
 
   export default {
     name: 'App',
@@ -28,13 +31,15 @@
       Specials,
       Traits,
       Skills,
-      Perks
+      Perks,
+      OtherEffects
     },
     methods: {
-        ...mapActions(['newPlayer'])
+        ...mapActions(['newPlayer', 'loadTraits'])
     },
     created() {
         this.newPlayer();
+        this.loadTraits();
     },
   }
 </script>

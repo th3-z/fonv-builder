@@ -4,6 +4,7 @@
       inline
       :id="trait.id"
       class="mr-1"
+      @input="changeTrait($event, trait.id)"
     ></b-form-checkbox>
     <label :for="trait.id">
       <strong>{{ trait.name }}</strong>
@@ -16,13 +17,19 @@
 <script>
   import { mapActions } from 'vuex';
 
-    export default {
-        name: 'Trait',
-        props: ['trait'],
-        methods: {
-          ...mapActions(['addTrait'])
+  export default {
+      name: 'Trait',
+      props: ['trait'],
+      methods: {
+        ...mapActions(['addTrait']),
+        changeTrait(checked, traitId) {
+          if (checked)
+            this.addTrait(traitId);
+          else
+            console.log("removed");
         }
-    }
+      }
+  }
 </script>
 
 <style scoped>

@@ -5,7 +5,19 @@ const state = {
 };
 
 const getters = {
-    player: (state) => state.player
+    player: (state) => state.player,
+
+    getPenalties(state, getters, rootState) {
+        let penalties = ["Test"];
+        const traits = rootState.traits.traits;
+
+        for (let traitId in state.player.traits) {
+            let trait = traits.find(trait => trait.id = traitId);
+            penalties = penalties.concat(trait.effects_penalty);
+        }
+
+        return penalties;
+    }
 };
 
 const actions = {
