@@ -33,7 +33,7 @@
 
 <style scoped>
   .perk-card {
-    width: 39em;
+    width: 38em;
     min-height: 12em;
   }
 

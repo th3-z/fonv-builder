@@ -1801,7 +1801,7 @@ PERKS = [
         "required_specials": {},
         "required_skills": {},
         "effects": [
-            "reate special explosive recipes at any workbench"
+            "Create special explosive recipes at any workbench"
         ]
     }
 ]

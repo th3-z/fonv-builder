@@ -34,7 +34,7 @@
 
 <style scoped>
   .trait-card {
-    width: 39em;
+    width: 38em;
     min-height: 12em;
   }
 

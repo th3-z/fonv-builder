@@ -3,8 +3,8 @@
     <Header/>
     
     <div class="m-2">
-      <BasicInfo/>
-      <b-tabs content-class="mt-3">
+      <BasicInfo class="mb-2"/>
+      <b-tabs content-class="mt-2">
         <b-tab title="SPECIAL" active><Specials/></b-tab>
         <b-tab title="Skills"><Skills/></b-tab>
         <b-tab title="Traits"><Traits/></b-tab>
