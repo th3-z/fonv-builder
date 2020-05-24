@@ -5,8 +5,12 @@
     <div class="m-2">
       <BasicInfo class="mb-2"/>
       <b-tabs content-class="mt-2">
-        <b-tab title="SPECIAL" active><Specials/></b-tab>
-        <b-tab title="Skills"><Skills/></b-tab>
+        <b-tab title="Skills &amp; SPECIAL" active>
+          <b-row>
+            <b-col><Skills/></b-col>
+            <b-col><Specials/></b-col>
+          </b-row>
+        </b-tab>
         <b-tab title="Traits"><Traits/></b-tab>
         <b-tab title="Perks"><Perks/></b-tab>
         <b-tab title="Stats"><Stats/></b-tab>

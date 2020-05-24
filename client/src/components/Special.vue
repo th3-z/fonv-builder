@@ -1,10 +1,9 @@
 <template>
-    <div class="special">
-        <label for="sb-special">{{special.name_short}}</label>
+    <div class="special form-group row">
+        <label for="sb-special" class="col-sm-2 col-form-label">{{special.name}}</label>
         <b-form-spinbutton
             id="sb-special"
             size="sm"
-            class="mb-2"
             v-model="player.base_specials[special.id]"
             min="1"
             max="10"
@@ -24,5 +23,7 @@
 </script>
 
 <style scoped>
-
+    .special {
+        align-items: center;
+    }
 </style>

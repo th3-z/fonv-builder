@@ -101,6 +101,7 @@
     }
 
     .custom-file-label {
+        /* Overrides styling on the file browser's label */
         justify-content: left !important;
     }
     
