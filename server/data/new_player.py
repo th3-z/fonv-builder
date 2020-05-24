@@ -3,7 +3,7 @@ NEW_PLAYER = {
     "gender": "male",
     "special_points": 41,  # Lonesome Road completion adds 1 SPECIAL point
     "random_books": 4,
-    "level": 1,
+    "level": 2,
     "base_specials": {
         "strength": 1,
         "perception": 1,

@@ -3,7 +3,8 @@ import axios from 'axios';
 const state = {
     player: {
         traits: [],
-        perks: []
+        perks: [],
+        base_specials: {}
     }
 };
 
@@ -60,6 +61,10 @@ const actions = {
     async newPlayer({ commit }) {
         const response = await axios.get(process.env.VUE_APP_ROOT_API + "/new_player");
         commit('setPlayer', response.data.new_player);
+    },
+
+    setPlayer({ commit }, player) {
+        commit('setPlayer', player);
     },
 };
 

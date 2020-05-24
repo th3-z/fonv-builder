@@ -18,17 +18,17 @@
   import { mapActions } from 'vuex';
 
   export default {
-      name: 'Trait',
-      props: ['trait'],
-      methods: {
-        ...mapActions(['addTrait', 'removeTrait']),
-        changeTrait(checked, traitId) {
-          if (checked)
-            this.addTrait(traitId);
-          else
-            this.removeTrait(traitId);
-        }
+    name: 'Trait',
+    props: ['trait'],
+    methods: {
+      ...mapActions(['addTrait', 'removeTrait']),
+      changeTrait(checked, traitId) {
+        if (checked)
+          this.addTrait(traitId);
+        else
+          this.removeTrait(traitId);
       }
+    }
   }
 </script>
 

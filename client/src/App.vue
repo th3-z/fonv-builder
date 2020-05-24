@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header/>
-    <div>
+    
+    <div class="m-2">
+      <BasicInfo/>
       <b-tabs content-class="mt-3">
         <b-tab title="SPECIAL" active><Specials/></b-tab>
         <b-tab title="Skills"><Skills/></b-tab>
@@ -24,6 +26,7 @@
   import Perks from './components/Perks.vue'
   import OtherEffects from './components/OtherEffects.vue'
   import Stats from './components/Stats.vue'
+  import BasicInfo from './components/BasicInfo.vue'
 
   export default {
     name: 'App',
@@ -34,7 +37,8 @@
       Skills,
       Perks,
       OtherEffects,
-      Stats
+      Stats,
+      BasicInfo
     },
     methods: {
         ...mapActions(['newPlayer', 'loadTraits', 'loadPerks'])
