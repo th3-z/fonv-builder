@@ -2,7 +2,7 @@
   <div id="app">
     <Header/>
     
-    <div class="m-2">
+    <div class="m-2 content">
       <BasicInfo class="mb-2"/>
       <b-tabs content-class="mt-2">
         <b-tab title="Skills &amp; SPECIAL" active>
@@ -17,6 +17,8 @@
         <b-tab title="Other effects"><OtherEffects/></b-tab>
       </b-tabs>
     </div>
+
+    <Footer/>
   </div>
 </template>
 
@@ -24,6 +26,7 @@
   import { mapActions } from 'vuex';
 
   import Header from './components/layout/Header.vue'
+  import Footer from './components/layout/Footer.vue'
   import Specials from './components/Specials.vue'
   import Traits from './components/Traits.vue'
   import Skills from './components/Skills.vue'
@@ -36,6 +39,7 @@
     name: 'App',
     components: {
       Header,
+      Footer,
       Specials,
       Traits,
       Skills,
@@ -63,7 +67,21 @@
   padding: 0;
 }
 
-body {
+body, html {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.content {
+  flex: 1 0 auto;
 }
 </style>

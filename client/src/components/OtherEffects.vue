@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="ml-4">
         <ul v-bind:key="benefit" v-for="benefit in getBenefits">
             <li class="benefit">{{ benefit }}</li>
         </ul>

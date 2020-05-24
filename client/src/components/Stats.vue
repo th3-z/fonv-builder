@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="ml-4">
         <ul>
             <li>Action points: {{ actionPoints }}</li>
         </ul>

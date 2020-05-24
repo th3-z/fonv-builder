@@ -10,9 +10,11 @@
             inline
         ></b-form-spinbutton>
         <b-form-checkbox
+            v-b-tooltip.hover.right="'Tag skill'"
             inline
             class="ml-2"
             v-model="player.base_skills[skill.id].tagged"
+            @input="tagSkill($event, skill.id)"
         ></b-form-checkbox>
     </div>
 </template>
@@ -23,7 +25,18 @@
     export default {
         name: 'Skill',
         props: ['skill'],
-        computed: mapGetters(['player'])
+        computed: mapGetters(['player']),
+        methods: {
+            tagSkill(checked, skillId) {
+                if (checked) {
+                    this.player.base_skills[skillId].value += 15
+                    this.player.skill_points += 15
+                } else {
+                    this.player.base_skills[skillId].value -= 15
+                    this.player.skill_points -= 15
+                }
+            }
+        }
     }
 </script>
 
