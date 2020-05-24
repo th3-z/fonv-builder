@@ -4,6 +4,7 @@
       inline
       :id="perk.id"
       class="mr-1"
+      @input="changePerk($event, perk.id)"
     ></b-form-checkbox>
     <label :for="perk.id">
       <strong>{{ perk.name }}</strong>
@@ -15,13 +16,19 @@
 <script>
   import { mapActions } from 'vuex';
 
-    export default {
-        name: 'Perk',
-        props: ['perk'],
-        methods: {
-          ...mapActions(['addPerk'])
+  export default {
+      name: 'Perk',
+      props: ['perk'],
+      methods: {
+        ...mapActions(['addPerk', 'removePerk']),
+        changePerk(checked, perkId) {
+          if (checked)
+            this.addPerk(perkId);
+          else
+            this.removePerk(perkId);
         }
-    }
+      }
+  }
 </script>
 
 <style scoped>

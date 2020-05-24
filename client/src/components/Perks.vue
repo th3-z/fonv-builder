@@ -3,30 +3,27 @@
         <div v-bind:key="perk.id" v-for="perk in perks">
             <perk v-bind:perk="perk"/>
         </div>
+        <p
+            v-bind:class="{'error':remainingPerks < 0}"
+        >Remaining perks: {{remainingPerks}}</p>
     </div>
 </template>
 
 <script>
 import Perk from './Perk.vue';
 import { mapGetters } from 'vuex';
-import axios from 'axios';
 
 export default {
     name: "Perks",
     components: {
         Perk
     },
-    computed: mapGetters(['player']),
-    created() {
-        axios.get(process.env.VUE_APP_ROOT_API + "/perks")
-            .then(res => this.perks = res.data.perks)
-            .catch(err => console.log(err));
-    },
-    data() {
-        return {
-            perks: []
+    computed: {
+        ...mapGetters(['perks', 'player']),
+        remainingPerks() {
+            return Math.floor(this.player.level / 2) - this.player.perks.length;
         }
-    },
+    }
 }
 </script>
 

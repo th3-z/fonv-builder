@@ -8,7 +8,11 @@ PERKS = [
         "level_requirement": 2,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+10% damage to the opposite sex",
+            "unique dialogue options with the opposite sex"
+        ]
     },
     {
         "id": "confirmed_bachelor",
@@ -19,7 +23,11 @@ PERKS = [
         "level_requirement": 2,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+10% damage to the same sex",
+            "unique dialogue options with the same sex"
+        ]
     },
     {
         "id": "friend_of_the_night",
@@ -34,7 +42,10 @@ PERKS = [
         },
         "required_skills": {
             "sneak": 30
-        }
+        },
+        "effects": [
+            "Your eyes adapt quickly to low-light conditions"
+        ]
     },
     {
         "id": "heave_ho",
@@ -49,7 +60,8 @@ PERKS = [
         },
         "required_skills": {
             "explosives": 30
-        }
+        },
+        "effects": []
     },
     {
         "id": "hunter",
@@ -62,7 +74,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 30
-        }
+        },
+        "effects": [
+            "75% more critical damage against animals and mutated animals"
+        ]
     },
     {
         "id": "intense_training",
@@ -73,7 +88,8 @@ PERKS = [
         "level_requirement": 2,
         "ranks": 10,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "rapid_reload",
@@ -88,7 +104,8 @@ PERKS = [
         },
         "required_skills": {
             "guns": 30
-        }
+        },
+        "effects": []
     },
     {
         "id": "retention",
@@ -101,7 +118,8 @@ PERKS = [
         "required_specials": {
             "intelligence": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "swift_learner",
@@ -114,7 +132,8 @@ PERKS = [
         "required_specials": {
             "intelligence": 4
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "cannibal",
@@ -125,7 +144,10 @@ PERKS = [
         "level_requirement": 4,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Can eat human corpses to regain hit points"
+        ]
     },
     {
         "id": "comprehension",
@@ -138,7 +160,8 @@ PERKS = [
         "required_specials": {
             "intelligence": 4
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "educated",
@@ -151,7 +174,8 @@ PERKS = [
         "required_specials": {
             "intelligence": 4
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "entomologist",
@@ -166,7 +190,10 @@ PERKS = [
         },
         "required_skills": {
             "survival": 45
-        }
+        },
+        "effects": [
+            "+50% damage to mutated insects"
+        ]
     },
     {
         "id": "rad_child",
@@ -179,7 +206,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 70
-        }
+        },
+        "effects": [
+            "Regenerate 2 HP per second per 200 rads accumulated"
+        ]
     },
     {
         "id": "run_n_gun",
@@ -192,7 +222,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             # Guns 45 or energy_weapons 45
-        }
+        },
+        "effects": [
+            "Halved spread with one-handed ranged weapons while walking or running"
+        ]
     },
     {
         "id": "travel_light",
@@ -205,7 +238,8 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 45
-        }
+        },
+        "effects": []
     },
     {
         "id": "bloody_mess",
@@ -216,7 +250,8 @@ PERKS = [
         "level_requirement": 6,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "demolition_expert",
@@ -229,7 +264,8 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "explosives": 50
-        }
+        },
+        "effects": []
     },
     {
         "id": "ferocious_loyalty",
@@ -242,7 +278,10 @@ PERKS = [
         "required_specials": {
             "charisma": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "When you drop below 50% HP, companions gain +50 DR"
+        ]
     },
     {
         "id": "fortune_finder",
@@ -253,7 +292,10 @@ PERKS = [
         "level_requirement": 6,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Considerably more bottle caps will be found in stockpiles"
+        ]
     },
     {
         "id": "gunslinger",
@@ -264,7 +306,10 @@ PERKS = [
         "level_requirement": 6,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+25% accuracy in V.A.T.S. with one-handed weapons"
+        ]
     },
     {
         "id": "hand_loader",
@@ -277,7 +322,11 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "repair": 70
-        }
+        },
+        "effects": [
+            "All hand load recipes unlocked",
+            "You are twice as likely to recover cases and hulls when using guns"
+        ]
     },
     {
         "id": "lead_belly",
@@ -290,7 +339,10 @@ PERKS = [
         "required_specials": {
             "endurance": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "-50% radiation taken from food and water sources"
+        ]
     },
     {
         "id": "shotgun_surgeon",
@@ -301,7 +353,10 @@ PERKS = [
         "level_requirement": 6,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Ignore 10DT when using shotguns"
+        ]
     },
     {
         "id": "the_professional",
@@ -314,7 +369,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "sneak": 70
-        }
+        },
+        "effects": [
+            "+20% damage to sneak attack criticals with revolvers, pistols, and submachine guns"
+        ]
     },
     {
         "id": "toughness",
@@ -327,7 +385,8 @@ PERKS = [
         "required_specials": {
             "endurance": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "vigilant_recycler",
@@ -340,7 +399,11 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "science": 70
-        }
+        },
+        "effects": [
+            "Twice as likely to recover drained ammunition from energy weapons",
+            "More efficient recycling recipes available at workbenches"
+        ]
     },
     {
         "id": "commando",
@@ -351,7 +414,10 @@ PERKS = [
         "level_requirement": 8,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+25% accuracy in V.A.T.S. with two-handed weapons"
+        ]
     },
     {
         "id": "cowboy",
@@ -365,7 +431,10 @@ PERKS = [
         "required_skills": {
             "guns": 45,
             "melee": 45
-        }
+        },
+        "effects": [
+            "+25% damage with dynamite, hatchets, knives, revolvers, and lever-action guns"
+        ]
     },
     {
         "id": "living_anatomy",
@@ -378,7 +447,11 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "medicine": 70
-        }
+        },
+        "effects": [
+            "+5% bonus to damage against humans and non-feral ghouls",
+            "Can see health and Damage Threshold of any target"
+        ]
     },
     {
         "id": "pack_rat",
@@ -393,7 +466,10 @@ PERKS = [
         },
         "required_skills": {
             "barter": 70
-        }
+        },
+        "effects": [
+            "Items with a weight of two pounds or less now weigh half as much"
+        ]
     },
     {
         "id": "quick_draw",
@@ -406,7 +482,10 @@ PERKS = [
         "required_specials": {
             "agility": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Weapon equipping and holstering is 50% faster"
+        ]
     },
     {
         "id": "rad_resistance",
@@ -421,7 +500,8 @@ PERKS = [
         },
         "required_skills": {
             "survival": 40
-        }
+        },
+        "effects": []
     },
     {
         "id": "scrounger",
@@ -434,7 +514,10 @@ PERKS = [
         "required_specials": {
             "luck": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Considerably more ammunition in stockpiles"
+        ]
     },
     {
         "id": "stonewall",
@@ -448,7 +531,11 @@ PERKS = [
             "strength": 6,
             "endurance": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "cannot be knocked down during combat",
+            "+5 DT against melee and unarmed attacks"
+        ]
     },
     {
         "id": "strong_back",
@@ -462,7 +549,8 @@ PERKS = [
             "strength": 5,
             "edurance": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "super_slam",
@@ -477,7 +565,11 @@ PERKS = [
         },
         "required_skills": {
             "melee_weapons": 45
-        }
+        },
+        "effects": [
+            "15% chance of unarmed and on-handed melee attacks knocking down your target",
+            "30% chance of two-handed melee attacks knocking down your target"
+        ]
     },
     {
         "id": "terrifying_presence",
@@ -490,7 +582,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "speech": 70
-        }
+        },
+        "effects": [
+            "Can intimidate foes through dialogue; closing dialogue results in the foe fleeing for 5 seconds"
+        ]
     },
     {
         "id": "here_and_now",
@@ -501,12 +596,13 @@ PERKS = [
         "level_requirement": 10,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "animal_friend",
         "name": "Animal Friend",
-        "name_female": None,
+        "name_female": None,  # TODO - How to handle this
         "benefit": "On 1st rank, hostile animals become friendly. On 2nd rank they come to your aid against enemies except against other animals",
         "expansion": "base",
         "level_requirement": 10,
@@ -516,7 +612,10 @@ PERKS = [
         },
         "required_skills": {
             "survival": 45
-        }
+        },
+        "effects": [
+            "Hostile animals become friendly"
+        ]
     },
     {
         "id": "finesse",
@@ -527,7 +626,8 @@ PERKS = [
         "level_requirement": 10,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "math_wrath",
@@ -538,7 +638,8 @@ PERKS = [
         "level_requirement": 10,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "miss_fortune",
@@ -551,7 +652,10 @@ PERKS = [
         "required_specials": {
             "luck": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "10% chance that Miss Fortune will incapacitate a target in V.A.T.S"
+        ]
     },
     {
         "id": "mister_sandman",
@@ -564,7 +668,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "sneak": 60
-        }
+        },
+        "effects": [
+            "Can instantly kill a sleeping non-player character"
+        ]
     },
     {
         "id": "mysterious_stranger",
@@ -577,7 +684,10 @@ PERKS = [
         "required_specials": {
             "luck": 5
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "10% chance that the Stranger will finish off a target in V.A.T.S"
+        ]
     },
     {
         "id": "nerd_rage",
@@ -592,7 +702,10 @@ PERKS = [
         },
         "required_skills": {
             "science": 70
-        }
+        },
+        "effects": [
+            "+15 DT and Strength increased to 10 whenever health is 20% or lower"
+        ]
     },
     {
         "id": "night_person",
@@ -603,7 +716,10 @@ PERKS = [
         "level_requirement": 10,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+2 Intelligence and +2 Perception between 6:00 P.M. and 6:00 A.M"
+        ]
     },
     {
         "id": "plasma_spaz",
@@ -616,7 +732,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "energy_weapons": 70
-        }
+        },
+        "effects": [
+            "AP costs for all plasma weapons are reduced by 20%"
+        ]
     },
     {
         "id": "fast_metabolism",
@@ -627,7 +746,10 @@ PERKS = [
         "level_requirement": 12,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+20% Hit Points restored with stimpaks"
+        ]
     },
     {
         "id": "ghastly_scavenger",  # Requires cannibal perk
@@ -638,7 +760,10 @@ PERKS = [
         "level_requirement": 12,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Can eat super mutant or feral ghoul corpses to regain hit points"
+        ]
     },
     {
         "id": "hit_the_deck",
@@ -651,7 +776,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "explosives": 70
-        }
+        },
+        "effects": [
+            "+25 DT against explosives"
+        ]
     },
     {
         "id": "life_giver",
@@ -664,7 +792,8 @@ PERKS = [
         "required_specials": {
             "endurance": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "long_haul",
@@ -679,7 +808,10 @@ PERKS = [
         },
         "required_skills": {
             "barter": 70
-        }
+        },
+        "effects": [
+            "Being over-encumbered no longer prevents you from using fast travel"
+        ]
     },
     {
         "id": "piercing_strike",
@@ -692,7 +824,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "unarmed": 70
-        }
+        },
+        "effects": [
+            "All your unarmed and melee attacks negate 15 points of DT"
+        ]
     },
     {
         "id": "pyromaniac",
@@ -705,7 +840,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "explosives": 60
-        }
+        },
+        "effects": [
+            "+50% damage with fire-based weapons"
+        ]
     },
     {
         "id": "robotics_expert",
@@ -718,7 +856,11 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "science": 70
-        }
+        },
+        "effects": [
+            "+25% damage to robots",
+            "Can shut down robots by sneaking up on them"
+        ]
     },
     {
         "id": "silent_running",
@@ -733,7 +875,10 @@ PERKS = [
         },
         "required_skills": {
             "sneak": 50
-        }
+        },
+        "effects": [
+            "Running no longer factors into a successful sneak attempt"
+        ]
     },
     {
         "id": "sniper",
@@ -747,7 +892,10 @@ PERKS = [
             "perception": 6,
             "agility": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "25% more likely to hit the target's head in V.A.T.S"
+        ]
     },
     {
         "id": "splash_damage",
@@ -760,7 +908,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "explosives": 70
-        }
+        },
+        "effects": [
+            "Explosives have a 25% larger area of effect"
+        ]
     },
     {
         "id": "unstoppable_force",
@@ -775,7 +926,10 @@ PERKS = [
         },
         "required_skills": {
             "melee_weapons": 90
-        }
+        },
+        "effects": [
+            "x4 normal damage through enemy blocks with melee and unarmed attacks"
+        ]
     },
     {
         "id": "adamantium_skeleton",
@@ -786,7 +940,8 @@ PERKS = [
         "level_requirement": 14,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "center_of_mass",
@@ -799,7 +954,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "guns": 70
-        }
+        },
+        "effects": [
+            "In V.A.T.S., you do an additional 15% damage when targeting the torso"
+        ]
     },
     {
         "id": "chemist",
@@ -812,7 +970,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "medicine": 60
-        }
+        },
+        "effects": [
+            "Chems and (in Hardcore) stimpaks last twice as long"
+        ]
     },
     {
         "id": "jury_rigging",
@@ -825,7 +986,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "repair": 90
-        }
+        },
+        "effects": [
+            "Repair any item using a roughly similar item"
+        ]
     },
     {
         "id": "light_step",
@@ -839,7 +1003,10 @@ PERKS = [
             "perception": 6,
             "agility": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Floor traps or mines will not be set off"
+        ]
     },
     {
         "id": "purifier",
@@ -850,7 +1017,10 @@ PERKS = [
         "level_requirement": 14,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "You do 50% extra damage with melee and unarmed weapons against centaurs, night stalkers, spore plants, spore carriers, deathclaws and super mutants"
+        ]
     },
     {
         "id": "action_boy",
@@ -863,7 +1033,8 @@ PERKS = [
         "required_specials": {
             "agility": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "better_criticals",
@@ -877,7 +1048,8 @@ PERKS = [
             "perception": 6,
             "luck": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "chem_resistant",
@@ -890,7 +1062,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "medicine": 60
-        }
+        },
+        "effects": [
+            "Half as likely to get addicted"
+        ]
     },
     {
         "id": "meltdown",
@@ -903,7 +1078,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "energy_weapons": 90
-        }
+        },
+        "effects": [
+            "Foes killed by your Energy Weapons emit a corona of harmful energy"
+        ]
     },
     {
         "id": "tag",
@@ -914,7 +1092,8 @@ PERKS = [
         "level_requirement": 16,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "weapon_handling",
@@ -927,7 +1106,10 @@ PERKS = [
         "required_specials": {
             # Stength less than 10
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Weapon Strength requirements are now 2 points lower than normal for you"
+        ]
     },
     {
         "id": "computer_whiz",
@@ -942,7 +1124,10 @@ PERKS = [
         },
         "required_skills": {
             "science": 70
-        }
+        },
+        "effects": [
+            "Can make one extra attempt to hack a locked-down terminal"
+        ]
     },
     {
         "id": "concentrated_fire",
@@ -956,7 +1141,10 @@ PERKS = [
         "required_skills": {
             "energy_weapons": 60,
             "guns": 60
-        }
+        },
+        "effects": [
+            "+5% accuracy in V.A.T.S. with every subsequent attack on a given body part queued"
+        ]
     },
     {
         "id": "infiltrator",
@@ -971,7 +1159,10 @@ PERKS = [
         },
         "required_skills": {
             "lockpick": 70
-        }
+        },
+        "effects": [
+            "Can make one more attempt to pick a broken lock"
+        ]
     },
     {
         "id": "paralyzing_palm",
@@ -984,7 +1175,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "unarmed": 70
-        }
+        },
+        "effects": [
+            "Can paralyze an enemy for 30 seconds with a V.A.T.S. unarmed attack"
+        ]
     },
     {
         "id": "explorer",
@@ -995,7 +1189,10 @@ PERKS = [
         "level_requirement": 20,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "All locations are marked on your map"
+        ]
     },
     {
         "id": "grim_reapers_sprint",
@@ -1006,13 +1203,16 @@ PERKS = [
         "level_requirement": 20,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "A kill in V.A.T.S. restores 20 AP immediately"
+        ]
     },
     {
         "id": "ninja",
         "name": "Ninja",
         "name_female": None,
-        "benefit": "x1.15 (instead of +15 luck due to a bug) critical chance with melee and unarmed weapons, +25% damage with melee/unarmed sneak attack criticals",
+        "benefit": "x1.15 critical chance with melee and unarmed weapons, +25% damage with melee/unarmed sneak attack criticals",
         "expansion": "base",
         "level_requirement": 20,
         "ranks": 1,
@@ -1020,7 +1220,8 @@ PERKS = [
         "required_skills": {
             "melee_weapons": 80,
             "sneak": 80
-        }
+        },
+        "effects": []
     },
     {
         "id": "solar_powered",
@@ -1033,7 +1234,10 @@ PERKS = [
         "required_specials": {
             "endurance": 7
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+2 Strength and +1 HP per second while outside, from 6:00 A.M. to 6:00 P.M"
+        ]
     },
     {
         "id": "laser_commander",
@@ -1046,7 +1250,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "energy_weapons": 90
-        }
+        },
+        "effects": [
+            "You do an extra 15% damage and have a 10% extra chance to critically hit with any laser weapon"
+        ]
     },
     {
         "id": "nuka_chemist",
@@ -1059,7 +1266,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "science": 90
-        }
+        },
+        "effects": [
+            "Special Nuka-Cola recipes at the workbench"
+        ]
     },
     {
         "id": "spray_and_pay",
@@ -1070,7 +1280,10 @@ PERKS = [
         "level_requirement": 22,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Your attacks do 75% less damage to companions"
+        ]
     },
     {
         "id": "slayer",
@@ -1086,7 +1299,8 @@ PERKS = [
         },
         "required_skills": {
             "unarmed": 90
-        }
+        },
+        "effects": []
     },
     {
         "id": "nerves_of_steel",
@@ -1099,7 +1313,8 @@ PERKS = [
         "required_specials": {
             "agility": 7
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "rad_absorption",
@@ -1112,7 +1327,8 @@ PERKS = [
         "required_specials": {
             "endurance": 7
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "in_shining_armor",
@@ -1126,7 +1342,8 @@ PERKS = [
         "required_skills": {
             "repair": 20,
             "science": 70
-        }
+        },
+        "effects": []
     },
     {
         "id": "junk_rounds",
@@ -1141,7 +1358,10 @@ PERKS = [
         },
         "required_skills": {
             "repair": 45
-        }
+        },
+        "effects": [
+            "You can craft ammunition using scrap metal and tin cans"
+        ]
     },
     {
         "id": "light_touch",
@@ -1156,7 +1376,8 @@ PERKS = [
         },
         "required_skills": {
             "repair": 45
-        }
+        },
+        "effects": []
     },
     {
         "id": "old_world_gourmet",
@@ -1171,7 +1392,11 @@ PERKS = [
         },
         "required_skills": {
             "survival": 45
-        }
+        },
+        "effects": [
+            "Scotch, vodka and wine now give you health in addition to their normal effects",
+            "+50% health bonus from snack foods"
+        ]
     },
     {
         "id": "and_stay_back",
@@ -1184,7 +1409,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "guns": 70
-        }
+        },
+        "effects": [
+            "Shotguns have a 10% chance, per pellet, of knocking an enemy back"
+        ]
     },
     {
         "id": "heavyweight",
@@ -1197,7 +1425,10 @@ PERKS = [
         "required_specials": {
             "strength": 7
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Weapons with a weight of more than 10 are cut in half. This does not affect weapons modded to under 10 wg"
+        ]
     },
     {
         "id": "hobbler",
@@ -1210,7 +1441,10 @@ PERKS = [
         "required_specials": {
             "perception": 7
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Your chance to hit an opponent's legs in V.A.T.S. is increased by 25%"
+        ]
     },
     {
         "id": "grunt",
@@ -1224,7 +1458,10 @@ PERKS = [
         "required_skills": {
             "guns": 45,
             "explosives": 20
-        }
+        },
+        "effects": [
+            "25% more damage with 9mm pistols and SMGs, .45 pistols and SMGs, service rifles, assault and Marksman carbines, light machine guns, frag grenades, grenade rifles and launchers and combat knives"
+        ]
     },
     {
         "id": "home_on_the_range",
@@ -1237,7 +1474,8 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 70
-        }
+        },
+        "effects": []
     },
     {
         "id": "sneering_imperialist",
@@ -1248,7 +1486,10 @@ PERKS = [
         "level_requirement": 8,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+15% Damage and +25% accuracy in V.A.T.S. to various tribal and raider characters"
+        ]
     },
     {
         "id": "tribal_wisdom",
@@ -1261,7 +1502,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 70
-        }
+        },
+        "effects": [
+            "-50% limb damage from animals, mutated animals, and mutated insects, +25% to Poison resistance, ability to eat mutated insects in sneak mode"
+        ]
     },
     {
         "id": "fight_the_power",
@@ -1272,7 +1516,10 @@ PERKS = [
         "level_requirement": 10,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+2 Damage Threshold and +5% Critical chance against anyone wearing NCR, Legion or Brotherhood of Steel armor"
+        ]
     },
     {
         "id": "eye_for_eye",
@@ -1283,7 +1530,10 @@ PERKS = [
         "level_requirement": 20,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "For each crippled limb you have, you do an additional 10% damage"
+        ]
     },
     {
         "id": "atomic",
@@ -1296,7 +1546,10 @@ PERKS = [
         "required_specials": {
             "endurance": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "In irradiated areas, +25% move and attack speed, +2 DT, +2 ST. With excess rad level, AP regen scales from 1.1 times to 1.5 times normal"
+        ]
     },
     {
         "id": "mile_in_their_shoes",
@@ -1309,7 +1562,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 25
-        }
+        },
+        "effects": [
+            "Consuming night stalker squeezin's now grants bonuses to Perception (+1 PER), Poison Resistance (+5), and Stealth (+5 Sneak) in addition to the normal benefits"
+        ]
     },
     {
         "id": "thems_good_eatin",
@@ -1322,7 +1578,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 55
-        }
+        },
+        "effects": [
+            "Any living creature you kill has a 50% chance to have the potent healing items thin red paste or blood sausage when looted"
+        ]
     },
     {
         "id": "implant_grx",
@@ -1335,7 +1594,10 @@ PERKS = [
         "required_specials": {
             "endurance": 8
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Non-addictive subdermal turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10"
+        ]
     },
     {
         "id": "alertness",
@@ -1348,7 +1610,10 @@ PERKS = [
         "required_specials": {
             # Perception between 6 and 9
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+2 Perception when crouched and still"
+        ]
     },
     {
         "id": "walker_instinct",
@@ -1361,7 +1626,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 50
-        }
+        },
+        "effects": [
+            "+1 Perception and Agility when outside"
+        ]
     },
     {
         "id": "irradiated_beauty",
@@ -1374,7 +1642,10 @@ PERKS = [
         "required_specials": {
             "endurance": 8
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Sleep removes all Rads (Hardcore: only -100 Rads)"
+        ]
     },
     {
         "id": "voracious_reader",
@@ -1387,7 +1658,10 @@ PERKS = [
         "required_specials": {
             "intelligence": 7
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "Damaged books become blank magazines; can copy existing magazines into blank magazines"
+        ]
     },
     {
         "id": "lessons_learned",
@@ -1400,7 +1674,8 @@ PERKS = [
         "required_specials": {
             "intelligence": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "tunnel_runner",
@@ -1413,7 +1688,8 @@ PERKS = [
         "required_specials": {
             "agility": 8
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "roughin_it",
@@ -1426,7 +1702,10 @@ PERKS = [
         "required_specials": {},
         "required_skills": {
             "survival": 100
-        }
+        },
+        "effects": [
+            "Sleeping outside gives Well Rested benefit"
+        ]
     },
     {
         "id": "burden_to_bear",
@@ -1440,7 +1719,8 @@ PERKS = [
             "strength": 6,
             "endurance": 6
         },
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "broad_daylight",
@@ -1451,7 +1731,10 @@ PERKS = [
         "level_requirement": 36,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "No Sneak penalty for using Pip-Boy light"
+        ]
     },
     {
         "id": "certified_tech",
@@ -1462,7 +1745,11 @@ PERKS = [
         "level_requirement": 40,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+25% critical hit chance against robots",
+            "85% chance of finding an extra crafting component on destroyed robots"
+        ]
     },
     {
         "id": "aint_like_that_now",  # The following three require karma to be within certain bounds
@@ -1473,7 +1760,9 @@ PERKS = [
         "level_requirement": 50,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+        ]
     },
     {
         "id": "just_lucky_im_alive",
@@ -1484,7 +1773,10 @@ PERKS = [
         "level_requirement": 50,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "+4 Luck for 3 minutes upon finishing a battle with less than 25% health"
+        ]
     },
     {
         "id": "thought_you_died",
@@ -1495,7 +1787,8 @@ PERKS = [
         "level_requirement": 50,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": []
     },
     {
         "id": "mad_bomber",
@@ -1506,6 +1799,9 @@ PERKS = [
         "level_requirement": 6,
         "ranks": 1,
         "required_specials": {},
-        "required_skills": {}
+        "required_skills": {},
+        "effects": [
+            "reate special explosive recipes at any workbench"
+        ]
     }
 ]
