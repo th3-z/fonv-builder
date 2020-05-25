@@ -2,6 +2,7 @@
 .vscode/
 .idea/
 .*.sw[op]
+*.kate-swp
 
 # Fucking node
 node_modules/
@@ -10,6 +11,15 @@ node_modules/
 __pycache__/
 *.py[cod]
 *$py.class
+venv/
+instance/
+.pytest_cache/
+.coverage/
+htmlcov/
+dist/
+build/
+*.egg-info/
+venv/
 
 # Local configs
 .env.local

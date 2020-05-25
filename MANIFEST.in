@@ -1,0 +1,3 @@
+include server/schema.sql
+graft server/static
+global-exclude *.pyc
