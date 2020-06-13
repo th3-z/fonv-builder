@@ -1,24 +1,56 @@
 <template>
   <b-card class="mb-1 mt-1 ml-1 mr-1 perk-card">
-    <b-form-checkbox
-      inline
-      :id="perk.id"
-      class="mr-1"
-      @input="changePerk($event, perk.id)"
-    ></b-form-checkbox>
-    <label :for="perk.id">
-      <strong>{{ perk.name }}</strong>
-    </label>
+    <template v-slot:header>
+      <b-form-checkbox
+        inline
+        :id="perk.id"
+        class="mr-1"
+        @input="changePerk($event, perk.id)"
+      ></b-form-checkbox>
+      
+      <label :for="perk.id">
+        <strong>{{ perk.name }}</strong>
+      </label>
+    </template>
+
     <p class="benefit">{{ perk.benefit }}</p>
+
+    <template v-slot:footer>
+      <label for="sb-perk-level" class="col-sm-2 col-form-label">Level</label>
+      <b-form-spinbutton
+          id="sb-perk-level"
+          size="sm"
+          min="2"
+          :max="player.level"
+          placeholder="6"
+          step="2"
+          inline
+      ></b-form-spinbutton>
+
+      <span v-if="perk.ranks > 1">
+        <label for="sb-perk-rank" class="col-sm-2 col-form-label">Rank</label>
+        <b-form-spinbutton
+            id="sb-perk-rank"
+            size="sm"
+            min="1"
+            :max="perk.ranks"
+            step="1"
+            inline
+        ></b-form-spinbutton>
+      </span>
+    </template>
+
+    
   </b-card>
 </template>
 
 <script>
-  import { mapActions } from 'vuex';
+  import { mapActions, mapGetters } from 'vuex';
 
   export default {
       name: 'Perk',
       props: ['perk'],
+      computed: mapGetters(['player']),
       methods: {
         ...mapActions(['addPerk', 'removePerk']),
         changePerk(checked, perkId) {
