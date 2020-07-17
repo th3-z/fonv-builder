@@ -5,7 +5,7 @@
         inline
         :id="perk.id"
         class="mr-1"
-        @input="changePerk($event, perk.id)"
+        @input="togglePerk($event, perk.id)"
       ></b-form-checkbox>
       
       <label :for="perk.id">
@@ -16,9 +16,9 @@
     <p class="benefit">{{ perk.benefit }}</p>
 
     <template v-slot:footer>
-      <label for="sb-perk-level" class="col-sm-2 col-form-label">Level</label>
+      <label :for="'sb-' + perk.id + '-level'" class="col-sm-2 col-form-label">Level</label>
       <b-form-spinbutton
-          id="sb-perk-level"
+          :id="'sb-' + perk.id + '-level'"
           size="sm"
           min="2"
           :max="player.level"
@@ -28,9 +28,9 @@
       ></b-form-spinbutton>
 
       <span v-if="perk.ranks > 1">
-        <label for="sb-perk-rank" class="col-sm-2 col-form-label">Rank</label>
+        <label :for="'sb-' + perk.id + '-rank'" class="col-sm-2 col-form-label">Rank</label>
         <b-form-spinbutton
-            id="sb-perk-rank"
+            :id="'sb-' + perk.id + '-rank'"
             size="sm"
             min="1"
             :max="perk.ranks"
@@ -52,12 +52,13 @@
       props: ['perk'],
       computed: mapGetters(['player']),
       methods: {
-        ...mapActions(['addPerk', 'removePerk']),
-        changePerk(checked, perkId) {
-          if (checked)
+        ...mapActions(['addPerk', 'removePerk', 'setPerkLevel', 'setPerkRank']),
+        togglePerk(checked, perkId) {
+          if (checked) {
             this.addPerk(perkId);
-          else
+          } else {
             this.removePerk(perkId);
+          }
         }
       }
   }

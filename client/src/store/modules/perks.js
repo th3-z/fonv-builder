@@ -30,23 +30,47 @@ const actions = {
             default:
                 commit('removePerkGeneric', {
                     player: rootState.player.player,
-                    trait_id: perkId
+                    perk_id: perkId
                 });
                 break;
         }
+    },
+
+    setPerkLevel({commit, rootState}, perkId, level) {
+        commit('setPerkLevel', {
+            player: rootState.player.player,
+            perk_id: perkId,
+            level: level
+        });
     }
 };
 
 const mutations = {
     setPerks: (state, perks) => (state.perks = perks),
 
+    setPerkLevel(state, payload) {
+        payload.player.perks.find(
+            perk => perk.id === payload.perk_id
+        ).level = payload.level
+    },
+
+    setPerkRank(state, payload) {
+        payload.player.perks.find(
+            perk => perk.id === payload.perk_id
+        ).rank = payload.rank
+    },
+
     addPerkGeneric(state, payload) {
-        payload.player.perks.push(payload.perk_id);
+        payload.player.perks.push({
+            id: payload.perk_id,
+            level: 0,
+            rank: 1
+        });
     },
 
     removePerkGeneric(state, payload) {
         payload.player.perks.splice(
-            payload.player.perks.indexOf(payload.perk_id),
+            payload.player.perks.findIndex(perk => perk.id === payload.perk_id),
             1
         );
     },
