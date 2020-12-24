@@ -3,67 +3,80 @@
         {
             "id": "barter",
             "name": "Barter",
-            "special_id": "charisma"
+            "special_id": "charisma",
+            "book_id": "book_barter"
         },
         {
             "id": "energy_weapons",
             "name": "Energy Weapons",
-            "special_id": "perception"
+            "special_id": "perception",
+            "book_id": "book_energy_weapons"
         },
         {
             "id": "explosives",
             "name": "Explosives",
-            "special_id": "perception"
+            "special_id": "perception",
+            "book_id": "book_exposives"
         },
         {
             "id": "guns",
             "name": "Guns",
-            "special_id": "agility"
+            "special_id": "agility",
+            "book_id": "book_guns"
         },
         {
             "id": "lockpick",
             "name": "Lockpick",
-            "special_id": "perception"
+            "special_id": "perception",
+            "book_id": "book_lockpick"
         },
         {
             "id": "medicine",
             "name": "Medicine",
-            "special_id": "intelligence"
+            "special_id": "intelligence",
+            "book_id": "book_medicine"
         },
         {
             "id": "melee_weapons",
             "name": "Melee weapons",
-            "special_id": "strength"
+            "special_id": "strength",
+            "book_id": "book_melee_weapons"
         },
         {
             "id": "repair",
             "name": "Repair",
-            "special_id": "intelligence"
+            "special_id": "intelligence",
+            "book_id": "book_repair"
         },
         {
             "id": "science",
             "name": "Science",
-            "special_id": "intelligence"
+            "special_id": "intelligence",
+            "book_id": "book_science"
         },
         {
             "id": "sneak",
             "name": "Sneak",
-            "special_id": "agility"
+            "special_id": "agility",
+            "book_id": "book_sneak"
         },
         {
             "id": "speech",
             "name": "Speech",
-            "special_id": "charisma"
+            "special_id": "charisma",
+            "book_id": "book_speech"
         },
         {
             "id": "survival",
             "name": "Surival",
-            "special_id": "endurance"
+            "special_id": "endurance",
+            "book_id": "book_survival"
         },
         {
             "id": "unarmed",
             "name": "Unarmed",
-            "special_id": "endurance"
+            "special_id": "endurance",
+            "book_id": "book_unarmed"
         }
     ],
     "status": "success"

@@ -1,9 +1,6 @@
 {
     "specials": [
         {
-            "associated_skills": [
-                "melee_weapons"
-            ],
             "id": "strength",
             "name": "Strength",
             "name_short": "ST"

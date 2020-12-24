@@ -4,7 +4,8 @@
         <b-form-spinbutton
             id="sb-special"
             size="sm"
-            v-model="player.base_specials[special.id]"
+            :value="computedSpecial(special)"
+            @change="changeSpecial($event, special)"
             min="1"
             max="10"
             inline
@@ -14,11 +15,21 @@
 
 <script>
     import { mapGetters } from 'vuex';
+    import computedSpecial from '../lib/special.js'
 
     export default {
         name: 'Special',
         props: ['special'],
-        computed: mapGetters(['player'])
+        computed: mapGetters(['player']),
+        methods: {
+            computedSpecial(special) {
+                return computedSpecial.special(this.player, special)
+            },
+            changeSpecial(event, special) {
+                const delta = event - computedSpecial.special(this.player, special)
+                this.player.base_specials[special.id] += delta
+            }
+        }
     }
 </script>
 
