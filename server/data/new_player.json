@@ -1,1 +1,78 @@
-{"new_player":{"base_skills":{"barter":{"tagged":false,"value":15},"energy_weapons":{"tagged":false,"value":15},"explosives":{"tagged":false,"value":15},"guns":{"tagged":false,"value":15},"lockpick":{"tagged":false,"value":15},"medicine":{"tagged":false,"value":15},"melee_weapons":{"tagged":false,"value":15},"repair":{"tagged":false,"value":15},"science":{"tagged":false,"value":15},"sneak":{"tagged":false,"value":15},"speech":{"tagged":false,"value":15},"survival":{"tagged":false,"value":15},"unarmed":{"tagged":false,"value":15}},"base_specials":{"agility":1,"charisma":1,"endurance":1,"intelligence":1,"luck":1,"perception":1,"strength":1},"books":[],"gender":"male","implants":[],"level":2,"name":"Courier","perks":[],"random_books":4,"skill_points":195,"special_points":41,"traits":[]},"status":"success"}
+{
+    "new_player": {
+        "base_skills": {
+            "barter": {
+                "tagged": false,
+                "value": 15
+            },
+            "energy_weapons": {
+                "tagged": false,
+                "value": 15
+            },
+            "explosives": {
+                "tagged": false,
+                "value": 15
+            },
+            "guns": {
+                "tagged": false,
+                "value": 15
+            },
+            "lockpick": {
+                "tagged": false,
+                "value": 15
+            },
+            "medicine": {
+                "tagged": false,
+                "value": 15
+            },
+            "melee_weapons": {
+                "tagged": false,
+                "value": 15
+            },
+            "repair": {
+                "tagged": false,
+                "value": 15
+            },
+            "science": {
+                "tagged": false,
+                "value": 15
+            },
+            "sneak": {
+                "tagged": false,
+                "value": 15
+            },
+            "speech": {
+                "tagged": false,
+                "value": 15
+            },
+            "survival": {
+                "tagged": false,
+                "value": 15
+            },
+            "unarmed": {
+                "tagged": false,
+                "value": 15
+            }
+        },
+        "base_specials": {
+            "agility": 1,
+            "charisma": 1,
+            "endurance": 1,
+            "intelligence": 1,
+            "luck": 1,
+            "perception": 1,
+            "strength": 1
+        },
+        "books": [],
+        "gender": "male",
+        "implants": [],
+        "level": 2,
+        "name": "Courier",
+        "perks": [],
+        "random_books": 4,
+        "skill_points": 195,
+        "special_points": 41,
+        "traits": []
+    },
+    "status": "success"
+}

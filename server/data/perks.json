@@ -1,1 +1,1803 @@
-{"perks":[{"benefit":"+10% damage to the opposite sex and unique dialogue options with certain characters","effects":["+10% damage to the opposite sex","unique dialogue options with the opposite sex"],"expansion":"base","id":"lady_killer","level_requirement":2,"name":"Lady Killer","name_female":"Black Widow","ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+10% damage to the same sex and unique dialogue options with certain characters","effects":["+10% damage to the same sex","unique dialogue options with the same sex"],"expansion":"base","id":"confirmed_bachelor","level_requirement":2,"name":"Confirmed Bachelor","name_female":"Cherchez La Femme","ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"Your eyes adapt quickly to low-light conditions","effects":["Your eyes adapt quickly to low-light conditions"],"expansion":"base","id":"friend_of_the_night","level_requirement":2,"name":"Friend of the Night","name_female":null,"ranks":1,"required_skills":{"sneak":30},"required_specials":{"perception":6}},{"benefit":"+50% thrown weapon velocity and range","effects":[],"expansion":"base","id":"heave_ho","level_requirement":2,"name":"Heave, Ho!","name_female":null,"ranks":1,"required_skills":{"explosives":30},"required_specials":{"strength":5}},{"benefit":"In combat, you do 75% more critical damage against animals and mutated animals","effects":["75% more critical damage against animals and mutated animals"],"expansion":"base","id":"hunter","level_requirement":2,"name":"Hunter","name_female":null,"ranks":1,"required_skills":{"survival":30},"required_specials":{}},{"benefit":"You can put a single point into any of your SPECIAL attributes","effects":[],"expansion":"base","id":"intense_training","level_requirement":2,"name":"Intense Training","name_female":null,"ranks":10,"required_skills":{},"required_specials":{}},{"benefit":"All of your weapon reloads are 25% faster than normal","effects":[],"expansion":"base","id":"rapid_reload","level_requirement":2,"name":"Rapid Reload","name_female":null,"ranks":1,"required_skills":{"guns":30},"required_specials":{"agility":5}},{"benefit":"Skill magazines last for 3 real-time minutes","effects":[],"expansion":"base","id":"retention","level_requirement":2,"name":"Retention","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"intelligence":5}},{"benefit":"You gain an additional 10% whenever experience points are earned","effects":[],"expansion":"base","id":"swift_learner","level_requirement":2,"name":"Swift Learner","name_female":null,"ranks":3,"required_skills":{},"required_specials":{"intelligence":4}},{"benefit":"When you're in Sneak mode, you gain the option to eat a human corpse to regain hit points, but lose Karma","effects":["Can eat human corpses to regain hit points"],"expansion":"base","id":"cannibal","level_requirement":4,"name":"Cannibal","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"You gain one additional skill point for reading books and double the skill points for reading magazines","effects":[],"expansion":"base","id":"comprehension","level_requirement":4,"name":"Comprehension","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"intelligence":4}},{"benefit":"You gain two more skill points every time you advance in level","effects":[],"expansion":"base","id":"educated","level_requirement":4,"name":"Educated","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"intelligence":4}},{"benefit":"You do an additional 50% damage every time you attack a mutated insect","effects":["+50% damage to mutated insects"],"expansion":"base","id":"entomologist","level_requirement":4,"name":"Entomologist","name_female":null,"ranks":1,"required_skills":{"survival":45},"required_specials":{"intelligence":4}},{"benefit":"Regenerate 2 HP per second per 200 rads accumulated","effects":["Regenerate 2 HP per second per 200 rads accumulated"],"expansion":"base","id":"rad_child","level_requirement":4,"name":"Rad Child","name_female":null,"ranks":1,"required_skills":{"survival":70},"required_specials":{}},{"benefit":"Halved spread with one-handed ranged weapons while walking or running","effects":["Halved spread with one-handed ranged weapons while walking or running"],"expansion":"base","id":"run_n_gun","level_requirement":4,"name":"Run 'n Gun","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"While wearing light armor or no armor, you run 10% faster","effects":[],"expansion":"base","id":"travel_light","level_requirement":4,"name":"Travel Light","name_female":null,"ranks":1,"required_skills":{"survival":45},"required_specials":{}},{"benefit":"+5% overall damage; more violent death animations","effects":[],"expansion":"base","id":"bloody_mess","level_requirement":6,"name":"Bloody Mess","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+20% damage with explosives","effects":[],"expansion":"base","id":"demolition_expert","level_requirement":6,"name":"Demolition Expert","name_female":null,"ranks":3,"required_skills":{"explosives":50},"required_specials":{}},{"benefit":"When you drop below 50% HP, companions gain +50 DR","effects":["When you drop below 50% HP, companions gain +50 DR"],"expansion":"base","id":"ferocious_loyalty","level_requirement":6,"name":"Ferocious Loyalty","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"charisma":6}},{"benefit":"Considerably more bottle caps will be found in stockpiles","effects":["Considerably more bottle caps will be found in stockpiles"],"expansion":"base","id":"fortune_finder","level_requirement":6,"name":"Fortune Finder","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+25% accuracy in V.A.T.S. with one-handed weapons","effects":["+25% accuracy in V.A.T.S. with one-handed weapons"],"expansion":"base","id":"gunslinger","level_requirement":6,"name":"Gunslinger","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"When using Guns, you are twice as likely to recover cases and hulls. You also have all hand load recipes unlocked at any reloading benches","effects":["All hand load recipes unlocked","You are twice as likely to recover cases and hulls when using guns"],"expansion":"base","id":"hand_loader","level_requirement":6,"name":"Hand Loader","name_female":null,"ranks":1,"required_skills":{"repair":70},"required_specials":{}},{"benefit":"-50% radiation taken from food and water sources","effects":["-50% radiation taken from food and water sources"],"expansion":"base","id":"lead_belly","level_requirement":6,"name":"Lead Belly","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":5}},{"benefit":"When using shotguns, regardless of ammunition used, you ignore an additional 10 points of a target's Damage Threshold","effects":["Ignore 10DT when using shotguns"],"expansion":"base","id":"shotgun_surgeon","level_requirement":6,"name":"Shotgun Surgeon","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"Your sneak attack criticals with revolvers, pistols, and submachine guns (guns and energy weapons) all inflict an additional 20% damage","effects":["+20% damage to sneak attack criticals with revolvers, pistols, and submachine guns"],"expansion":"base","id":"the_professional","level_requirement":6,"name":"The Professional","name_female":null,"ranks":1,"required_skills":{"sneak":70},"required_specials":{}},{"benefit":"+3 DT permanently","effects":[],"expansion":"base","id":"toughness","level_requirement":6,"name":"Toughness","name_female":null,"ranks":2,"required_skills":{},"required_specials":{"endurance":5}},{"benefit":"When using Energy Weapons, you are twice as likely to recover drained ammunition. You also have more efficient recycling recipes available at workbenches","effects":["Twice as likely to recover drained ammunition from energy weapons","More efficient recycling recipes available at workbenches"],"expansion":"base","id":"vigilant_recycler","level_requirement":6,"name":"Vigilant Recycler","name_female":null,"ranks":1,"required_skills":{"science":70},"required_specials":{}},{"benefit":"+25% accuracy in V.A.T.S. with two-handed weapons","effects":["+25% accuracy in V.A.T.S. with two-handed weapons"],"expansion":"base","id":"commando","level_requirement":8,"name":"Commando","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+25% damage done by dynamite, hatchets, knives, revolvers, and lever-action guns","effects":["+25% damage with dynamite, hatchets, knives, revolvers, and lever-action guns"],"expansion":"base","id":"cowboy","level_requirement":8,"name":"Cowboy","name_female":null,"ranks":1,"required_skills":{"guns":45,"melee":45},"required_specials":{}},{"benefit":"Shows health and Damage Threshold of any target. +5% bonus to damage against humans and non-feral ghouls","effects":["+5% bonus to damage against humans and non-feral ghouls","Can see health and Damage Threshold of any target"],"expansion":"base","id":"living_anatomy","level_requirement":8,"name":"Living Anatomy","name_female":null,"ranks":1,"required_skills":{"medicine":70},"required_specials":{}},{"benefit":"Items with a weight of two pounds or less now weigh half as much","effects":["Items with a weight of two pounds or less now weigh half as much"],"expansion":"base","id":"pack_rat","level_requirement":8,"name":"Pack Rat","name_female":null,"ranks":1,"required_skills":{"barter":70},"required_specials":{"intelligence":5}},{"benefit":"Makes weapon equipping and holstering 50% faster","effects":["Weapon equipping and holstering is 50% faster"],"expansion":"base","id":"quick_draw","level_requirement":8,"name":"Quick Draw","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"agility":5}},{"benefit":"+25% radiation resistance permanently","effects":[],"expansion":"base","id":"rad_resistance","level_requirement":8,"name":"Rad Resistance","name_female":null,"ranks":1,"required_skills":{"survival":40},"required_specials":{"endurance":5}},{"benefit":"Considerably more ammunition in stockpiles","effects":["Considerably more ammunition in stockpiles"],"expansion":"base","id":"scrounger","level_requirement":8,"name":"Scrounger","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"luck":5}},{"benefit":"+5 DT against melee and unarmed attacks and cannot be knocked down during combat","effects":["cannot be knocked down during combat","+5 DT against melee and unarmed attacks"],"expansion":"base","id":"stonewall","level_requirement":8,"name":"Stonewall","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":6,"strength":6}},{"benefit":"+50 Carry Weight","effects":[],"expansion":"base","id":"strong_back","level_requirement":8,"name":"Strong Back","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"edurance":5,"strength":5}},{"benefit":"All melee (except thrown) and unarmed attacks have a chance of knocking your target down. 15% for Unarmed or one-handed melee, 30% for two-handed melee","effects":["15% chance of unarmed and on-handed melee attacks knocking down your target","30% chance of two-handed melee attacks knocking down your target"],"expansion":"base","id":"super_slam","level_requirement":8,"name":"Super Slam!","name_female":null,"ranks":1,"required_skills":{"melee_weapons":45},"required_specials":{"strength":6}},{"benefit":"Can intimidate foes through dialogue; closing dialogue results in the foe fleeing for 5 seconds","effects":["Can intimidate foes through dialogue; closing dialogue results in the foe fleeing for 5 seconds"],"expansion":"base","id":"terrifying_presence","level_requirement":8,"name":"Terrifying Presence","name_female":null,"ranks":1,"required_skills":{"speech":70},"required_specials":{}},{"benefit":"You instantly level up again","effects":[],"expansion":"base","id":"here_and_now","level_requirement":10,"name":"Here and Now","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"On 1st rank, hostile animals become friendly. On 2nd rank they come to your aid against enemies except against other animals","effects":["Hostile animals become friendly"],"expansion":"base","id":"animal_friend","level_requirement":10,"name":"Animal Friend","name_female":null,"ranks":2,"required_skills":{"survival":45},"required_specials":{"charisma":6}},{"benefit":"+5% Critical Chance","effects":[],"expansion":"base","id":"finesse","level_requirement":10,"name":"Finesse","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"Reduces all AP costs by 10%","effects":[],"expansion":"base","id":"math_wrath","level_requirement":10,"name":"Math Wrath","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"10% chance that Miss Fortune will incapacitate a target in V.A.T.S","effects":["10% chance that Miss Fortune will incapacitate a target in V.A.T.S"],"expansion":"base","id":"miss_fortune","level_requirement":10,"name":"Miss Fortune","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"luck":5}},{"benefit":"Can instantly kill a sleeping non-player character, and earn bonus XP when doing so","effects":["Can instantly kill a sleeping non-player character"],"expansion":"base","id":"mister_sandman","level_requirement":10,"name":"Mister Sandman","name_female":null,"ranks":1,"required_skills":{"sneak":60},"required_specials":{}},{"benefit":"10% chance that the Stranger will finish off a target in V.A.T.S","effects":["10% chance that the Stranger will finish off a target in V.A.T.S"],"expansion":"base","id":"mysterious_stranger","level_requirement":10,"name":"Mysterious Stranger","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"luck":5}},{"benefit":"+15 DT and Strength increased to 10 whenever health is 20% or lower","effects":["+15 DT and Strength increased to 10 whenever health is 20% or lower"],"expansion":"base","id":"nerd_rage","level_requirement":10,"name":"Nerd Rage!","name_female":null,"ranks":1,"required_skills":{"science":70},"required_specials":{"intelligence":5}},{"benefit":"+2 Intelligence and +2 Perception between 6:00 P.M. and 6:00 A.M","effects":["+2 Intelligence and +2 Perception between 6:00 P.M. and 6:00 A.M"],"expansion":"base","id":"night_person","level_requirement":10,"name":"Night Person","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"AP costs for all plasma weapons are reduced by 20%","effects":["AP costs for all plasma weapons are reduced by 20%"],"expansion":"base","id":"plasma_spaz","level_requirement":10,"name":"Plasma Spaz","name_female":null,"ranks":1,"required_skills":{"energy_weapons":70},"required_specials":{}},{"benefit":"+20% Hit Points restored with stimpaks","effects":["+20% Hit Points restored with stimpaks"],"expansion":"base","id":"fast_metabolism","level_requirement":12,"name":"Fast Metabolism","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"When you're in Sneak mode, you gain the option to eat a super mutant or feral ghoul corpse to regain hit points, but lose Karma","effects":["Can eat super mutant or feral ghoul corpses to regain hit points"],"expansion":"base","id":"ghastly_scavenger","level_requirement":12,"name":"Ghastly Scavenger","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+25 DT against explosives","effects":["+25 DT against explosives"],"expansion":"base","id":"hit_the_deck","level_requirement":12,"name":"Hit the Deck","name_female":null,"ranks":1,"required_skills":{"explosives":70},"required_specials":{}},{"benefit":"+30 hit points","effects":[],"expansion":"base","id":"life_giver","level_requirement":12,"name":"Life Giver","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":6}},{"benefit":"Being over-encumbered no longer prevents you from using fast travel","effects":["Being over-encumbered no longer prevents you from using fast travel"],"expansion":"base","id":"long_haul","level_requirement":12,"name":"Long Haul","name_female":null,"ranks":1,"required_skills":{"barter":70},"required_specials":{"endurance":6}},{"benefit":"All your unarmed and melee attacks negate 15 points of DT","effects":["All your unarmed and melee attacks negate 15 points of DT"],"expansion":"base","id":"piercing_strike","level_requirement":12,"name":"Piercing Strike","name_female":null,"ranks":1,"required_skills":{"unarmed":70},"required_specials":{}},{"benefit":"+50% damage with fire-based weapons","effects":["+50% damage with fire-based weapons"],"expansion":"base","id":"pyromaniac","level_requirement":12,"name":"Pyromaniac","name_female":null,"ranks":1,"required_skills":{"explosives":60},"required_specials":{}},{"benefit":"+25% damage to robots; can shut down robots by sneaking up on them and deactivating","effects":["+25% damage to robots","Can shut down robots by sneaking up on them"],"expansion":"base","id":"robotics_expert","level_requirement":12,"name":"Robotics Expert","name_female":null,"ranks":1,"required_skills":{"science":70},"required_specials":{}},{"benefit":"Running no longer factors into a successful sneak attempt","effects":["Running no longer factors into a successful sneak attempt"],"expansion":"base","id":"silent_running","level_requirement":12,"name":"Silent Running","name_female":null,"ranks":1,"required_skills":{"sneak":50},"required_specials":{"agility":6}},{"benefit":"25% more likely to hit the target's head in V.A.T.S","effects":["25% more likely to hit the target's head in V.A.T.S"],"expansion":"base","id":"sniper","level_requirement":12,"name":"Sniper","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"agility":6,"perception":6}},{"benefit":"Explosives have a 25% larger area of effect","effects":["Explosives have a 25% larger area of effect"],"expansion":"base","id":"splash_damage","level_requirement":12,"name":"Splash Damage","name_female":null,"ranks":1,"required_skills":{"explosives":70},"required_specials":{}},{"benefit":"x4 normal damage through enemy blocks with melee and unarmed attacks","effects":["x4 normal damage through enemy blocks with melee and unarmed attacks"],"expansion":"base","id":"unstoppable_force","level_requirement":12,"name":"Unstoppable Force","name_female":null,"ranks":1,"required_skills":{"melee_weapons":90},"required_specials":{"strength":7}},{"benefit":"Damage taken by limbs reduced by 50%","effects":[],"expansion":"base","id":"adamantium_skeleton","level_requirement":14,"name":"Adamantium Skeleton","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"In V.A.T.S., you do an additional 15% damage when targeting the torso","effects":["In V.A.T.S., you do an additional 15% damage when targeting the torso"],"expansion":"base","id":"center_of_mass","level_requirement":14,"name":"Center of Mass","name_female":null,"ranks":1,"required_skills":{"guns":70},"required_specials":{}},{"benefit":"Chems and (in Hardcore) stimpaks last twice as long","effects":["Chems and (in Hardcore) stimpaks last twice as long"],"expansion":"base","id":"chemist","level_requirement":14,"name":"Chemist","name_female":null,"ranks":1,"required_skills":{"medicine":60},"required_specials":{}},{"benefit":"Repair any item using a roughly similar item","effects":["Repair any item using a roughly similar item"],"expansion":"base","id":"jury_rigging","level_requirement":14,"name":"Jury Rigging","name_female":null,"ranks":1,"required_skills":{"repair":90},"required_specials":{}},{"benefit":"Floor traps or mines will not be set off","effects":["Floor traps or mines will not be set off"],"expansion":"base","id":"light_step","level_requirement":14,"name":"Light Step","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"agility":6,"perception":6}},{"benefit":"You do 50% extra damage with melee and unarmed weapons against centaurs, night stalkers, spore plants, spore carriers, deathclaws and super mutants","effects":["You do 50% extra damage with melee and unarmed weapons against centaurs, night stalkers, spore plants, spore carriers, deathclaws and super mutants"],"expansion":"base","id":"purifier","level_requirement":14,"name":"Purifier","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+15 Action Points","effects":[],"expansion":"base","id":"action_boy","level_requirement":16,"name":"Action Boy","name_female":"Action Girl","ranks":2,"required_skills":{},"required_specials":{"agility":6}},{"benefit":"+50% damage with critical hits","effects":[],"expansion":"base","id":"better_criticals","level_requirement":16,"name":"Better Criticals","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"luck":6,"perception":6}},{"benefit":"Half as likely to get addicted","effects":["Half as likely to get addicted"],"expansion":"base","id":"chem_resistant","level_requirement":16,"name":"Chem Resistant","name_female":null,"ranks":1,"required_skills":{"medicine":60},"required_specials":{}},{"benefit":"Foes killed by your Energy Weapons emit a corona of harmful energy","effects":["Foes killed by your Energy Weapons emit a corona of harmful energy"],"expansion":"base","id":"meltdown","level_requirement":16,"name":"Meltdown","name_female":null,"ranks":1,"required_skills":{"energy_weapons":90},"required_specials":{}},{"benefit":"Fourth \"tag\" skill: +15 points to that skill","effects":[],"expansion":"base","id":"tag","level_requirement":16,"name":"Tag!","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"Weapon Strength requirements are now 2 points lower than normal for you","effects":["Weapon Strength requirements are now 2 points lower than normal for you"],"expansion":"base","id":"weapon_handling","level_requirement":16,"name":"Weapon Handling","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"Can make one extra attempt to hack a locked-down terminal","effects":["Can make one extra attempt to hack a locked-down terminal"],"expansion":"base","id":"computer_whiz","level_requirement":18,"name":"Computer Whiz","name_female":null,"ranks":1,"required_skills":{"science":70},"required_specials":{"intelligence":7}},{"benefit":"+5% accuracy in V.A.T.S. with every subsequent attack on a given body part queued","effects":["+5% accuracy in V.A.T.S. with every subsequent attack on a given body part queued"],"expansion":"base","id":"concentrated_fire","level_requirement":18,"name":"Concentrated Fire","name_female":null,"ranks":1,"required_skills":{"energy_weapons":60,"guns":60},"required_specials":{}},{"benefit":"Can make one more attempt to pick a broken lock","effects":["Can make one more attempt to pick a broken lock"],"expansion":"base","id":"infiltrator","level_requirement":18,"name":"Infiltrator","name_female":null,"ranks":1,"required_skills":{"lockpick":70},"required_specials":{"perception":6}},{"benefit":"Can paralyze an enemy for 30 seconds with a V.A.T.S. unarmed attack","effects":["Can paralyze an enemy for 30 seconds with a V.A.T.S. unarmed attack"],"expansion":"base","id":"paralyzing_palm","level_requirement":18,"name":"Paralyzing Palm","name_female":null,"ranks":1,"required_skills":{"unarmed":70},"required_specials":{}},{"benefit":"All locations are marked on your map","effects":["All locations are marked on your map"],"expansion":"base","id":"explorer","level_requirement":20,"name":"Explorer","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"A kill in V.A.T.S. restores 20 AP immediately","effects":["A kill in V.A.T.S. restores 20 AP immediately"],"expansion":"base","id":"grim_reapers_sprint","level_requirement":20,"name":"Grim Reaper's Sprint","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"x1.15 critical chance with melee and unarmed weapons, +25% damage with melee/unarmed sneak attack criticals","effects":[],"expansion":"base","id":"ninja","level_requirement":20,"name":"Ninja","name_female":null,"ranks":1,"required_skills":{"melee_weapons":80,"sneak":80},"required_specials":{}},{"benefit":"+2 Strength and +1 HP per second while outside, from 6:00 A.M. to 6:00 P.M","effects":["+2 Strength and +1 HP per second while outside, from 6:00 A.M. to 6:00 P.M"],"expansion":"base","id":"solar_powered","level_requirement":20,"name":"Solar Powered","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":7}},{"benefit":"You do an extra 15% damage and have a 10% extra chance to critically hit with any laser weapon","effects":["You do an extra 15% damage and have a 10% extra chance to critically hit with any laser weapon"],"expansion":"base","id":"laser_commander","level_requirement":22,"name":"Laser Commander","name_female":null,"ranks":1,"required_skills":{"energy_weapons":90},"required_specials":{}},{"benefit":"Unlocks special Nuka-Cola recipes at the workbench","effects":["Special Nuka-Cola recipes at the workbench"],"expansion":"base","id":"nuka_chemist","level_requirement":22,"name":"Nuka Chemist","name_female":null,"ranks":1,"required_skills":{"science":90},"required_specials":{}},{"benefit":"Your attacks do 75% less damage to companions","effects":["Your attacks do 75% less damage to companions"],"expansion":"base","id":"spray_and_pay","level_requirement":22,"name":"Spray and Pray","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"The speed of all your melee and unarmed attacks is increased by 30%","effects":[],"expansion":"base","id":"slayer","level_requirement":24,"name":"Slayer","name_female":null,"ranks":1,"required_skills":{"unarmed":90},"required_specials":{"agility":7,"strength":7}},{"benefit":"20% faster AP regeneration","effects":[],"expansion":"base","id":"nerves_of_steel","level_requirement":26,"name":"Nerves of Steel","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"agility":7}},{"benefit":"-1 Rad every 20 seconds","effects":[],"expansion":"base","id":"rad_absorption","level_requirement":28,"name":"Rad Absorption","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":7}},{"benefit":"+5 DT against energy weapons while wearing metal armor, with a further +2 DT while wearing reflective eyewear or helmets","effects":[],"expansion":"dead_money","id":"in_shining_armor","level_requirement":2,"name":"In Shining Armor","name_female":null,"ranks":1,"required_skills":{"repair":20,"science":70},"required_specials":{}},{"benefit":"You can craft ammunition using scrap metal and tin cans","effects":["You can craft ammunition using scrap metal and tin cans"],"expansion":"dead_money","id":"junk_rounds","level_requirement":2,"name":"Junk Rounds","name_female":null,"ranks":1,"required_skills":{"repair":45},"required_specials":{"luck":6}},{"benefit":"While wearing light armor you gain +5% critical hit chance and your enemies suffer a -25% critical hit chance","effects":[],"expansion":"dead_money","id":"light_touch","level_requirement":2,"name":"Light Touch","name_female":null,"ranks":1,"required_skills":{"repair":45},"required_specials":{"agility":6}},{"benefit":"+25% addiction resistance. +50% health bonus from snack foods. Scotch, vodka and wine now give you health in addition to their normal effects","effects":["Scotch, vodka and wine now give you health in addition to their normal effects","+50% health bonus from snack foods"],"expansion":"dead_money","id":"old_world_gourmet","level_requirement":2,"name":"Old World Gourmet","name_female":null,"ranks":1,"required_skills":{"survival":45},"required_specials":{"endurance":6}},{"benefit":"Shotguns have a 10% chance, per pellet, of knocking an enemy back","effects":["Shotguns have a 10% chance, per pellet, of knocking an enemy back"],"expansion":"dead_money","id":"and_stay_back","level_requirement":10,"name":"And Stay Back","name_female":null,"ranks":1,"required_skills":{"guns":70},"required_specials":{}},{"benefit":"Weapons with a weight of more than 10 are cut in half. This does not affect weapons modded to under 10 wg","effects":["Weapons with a weight of more than 10 are cut in half. This does not affect weapons modded to under 10 wg"],"expansion":"dead_money","id":"heavyweight","level_requirement":12,"name":"Heavyweight","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"strength":7}},{"benefit":"Your chance to hit an opponent's legs in V.A.T.S. is increased by 25%","effects":["Your chance to hit an opponent's legs in V.A.T.S. is increased by 25%"],"expansion":"dead_money","id":"hobbler","level_requirement":12,"name":"Hobbler","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"perception":7}},{"benefit":"25% more damage with 9mm pistols and SMGs, .45 pistols and SMGs, service rifles, assault and Marksman carbines, light machine guns, frag grenades, grenade rifles and launchers and combat knives","effects":["25% more damage with 9mm pistols and SMGs, .45 pistols and SMGs, service rifles, assault and Marksman carbines, light machine guns, frag grenades, grenade rifles and launchers and combat knives"],"expansion":"honest_hearts","id":"grunt","level_requirement":8,"name":"Grunt","name_female":null,"ranks":1,"required_skills":{"explosives":20,"guns":45},"required_specials":{}},{"benefit":"Whenever you interact with a campfire, you have the option of sleeping, with all the benefits that sleep brings","effects":[],"expansion":"honest_hearts","id":"home_on_the_range","level_requirement":8,"name":"Home on the Range","name_female":null,"ranks":1,"required_skills":{"survival":70},"required_specials":{}},{"benefit":"+15% Damage and +25% accuracy in V.A.T.S. to various tribal and raider characters","effects":["+15% Damage and +25% accuracy in V.A.T.S. to various tribal and raider characters"],"expansion":"honest_hearts","id":"sneering_imperialist","level_requirement":8,"name":"Sneering Imperialist","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"-50% limb damage from animals, mutated animals, and mutated insects, +25% to Poison resistance, ability to eat mutated insects in sneak mode","effects":["-50% limb damage from animals, mutated animals, and mutated insects, +25% to Poison resistance, ability to eat mutated insects in sneak mode"],"expansion":"honest_hearts","id":"tribal_wisdom","level_requirement":8,"name":"Tribal Wisdom","name_female":null,"ranks":1,"required_skills":{"survival":70},"required_specials":{}},{"benefit":"+2 Damage Threshold and +5% Critical chance against anyone wearing NCR, Legion or Brotherhood of Steel armor","effects":["+2 Damage Threshold and +5% Critical chance against anyone wearing NCR, Legion or Brotherhood of Steel armor"],"expansion":"honest_hearts","id":"fight_the_power","level_requirement":10,"name":"Fight the Power!","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"For each crippled limb you have, you do an additional 10% damage","effects":["For each crippled limb you have, you do an additional 10% damage"],"expansion":"honest_hearts","id":"eye_for_eye","level_requirement":20,"name":"Eye for Eye","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"In irradiated areas, +25% move and attack speed, +2 DT, +2 ST. With excess rad level, AP regen scales from 1.1 times to 1.5 times normal","effects":["In irradiated areas, +25% move and attack speed, +2 DT, +2 ST. With excess rad level, AP regen scales from 1.1 times to 1.5 times normal"],"expansion":"old_world_blues","id":"atomic","level_requirement":20,"name":"Atomic!","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":6}},{"benefit":"You have come to understand night stalkers. Consuming night stalker squeezin's now grants bonuses to Perception (+1 PER), Poison Resistance (+5), and Stealth (+5 Sneak) in addition to the normal benefits","effects":["Consuming night stalker squeezin's now grants bonuses to Perception (+1 PER), Poison Resistance (+5), and Stealth (+5 Sneak) in addition to the normal benefits"],"expansion":"old_world_blues","id":"mile_in_their_shoes","level_requirement":20,"name":"Mile in Their Shoes","name_female":null,"ranks":1,"required_skills":{"survival":25},"required_specials":{}},{"benefit":"Any living creature you kill has a 50% chance to have the potent healing items thin red paste or blood sausage when looted","effects":["Any living creature you kill has a 50% chance to have the potent healing items thin red paste or blood sausage when looted"],"expansion":"old_world_blues","id":"thems_good_eatin","level_requirement":20,"name":"Them's Good Eatin'","name_female":null,"ranks":1,"required_skills":{"survival":55},"required_specials":{}},{"benefit":"You gain a non-addictive subdermal turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10 (activated in the Pip-Boy inventory)","effects":["Non-addictive subdermal turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10"],"expansion":"old_world_blues","id":"implant_grx","level_requirement":30,"name":"Implant GRX","name_female":null,"ranks":2,"required_skills":{},"required_specials":{"endurance":8}},{"benefit":"+2 Perception when crouched and still","effects":["+2 Perception when crouched and still"],"expansion":"lonesome_road","id":"alertness","level_requirement":12,"name":"Alertness","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+1 Perception and Agility when outside","effects":["+1 Perception and Agility when outside"],"expansion":"lonesome_road","id":"walker_instinct","level_requirement":18,"name":"Walker Instinct","name_female":null,"ranks":1,"required_skills":{"survival":50},"required_specials":{}},{"benefit":"Sleep removes all Rads (Hardcore: only -100 Rads)","effects":["Sleep removes all Rads (Hardcore: only -100 Rads)"],"expansion":"lonesome_road","id":"irradiated_beauty","level_requirement":22,"name":"Irradiated Beauty","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":8}},{"benefit":"Damaged books become blank magazines; can copy existing magazines into blank magazines","effects":["Damaged books become blank magazines; can copy existing magazines into blank magazines"],"expansion":"lonesome_road","id":"voracious_reader","level_requirement":22,"name":"Voracious Reader","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"intelligence":7}},{"benefit":"+1% XP gain per player level","effects":[],"expansion":"lonesome_road","id":"lessons_learned","level_requirement":26,"name":"Lessons Learned","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"intelligence":6}},{"benefit":"+25% sneaking speed when wearing light or no armor","effects":[],"expansion":"lonesome_road","id":"tunnel_runner","level_requirement":26,"name":"Tunnel Runner","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"agility":8}},{"benefit":"Sleeping outside gives Well Rested benefit","effects":["Sleeping outside gives Well Rested benefit"],"expansion":"lonesome_road","id":"roughin_it","level_requirement":28,"name":"Roughin' It","name_female":null,"ranks":1,"required_skills":{"survival":100},"required_specials":{}},{"benefit":"+50 carry weight","effects":[],"expansion":"lonesome_road","id":"burden_to_bear","level_requirement":30,"name":"Burden to Bear","name_female":null,"ranks":1,"required_skills":{},"required_specials":{"endurance":6,"strength":6}},{"benefit":"No Sneak penalty for using Pip-Boy light","effects":["No Sneak penalty for using Pip-Boy light"],"expansion":"lonesome_road","id":"broad_daylight","level_requirement":36,"name":"Broad Daylight","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+25% critical hit chance against robots, 85% chance of finding an extra crafting component on destroyed robots","effects":["+25% critical hit chance against robots","85% chance of finding an extra crafting component on destroyed robots"],"expansion":"lonesome_road","id":"certified_tech","level_requirement":40,"name":"Certified Tech","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"Karma reset to 0, +25% AP regeneration rate, +20% attack speed, immunity to critical hits","effects":[],"expansion":"lonesome_road","id":"aint_like_that_now","level_requirement":50,"name":"Ain't Like That Now","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+4 Luck for 3 minutes upon finishing a battle with less than 25% health; immunity to critical hits, +50% critical damage","effects":["+4 Luck for 3 minutes upon finishing a battle with less than 25% health"],"expansion":"lonesome_road","id":"just_lucky_im_alive","level_requirement":50,"name":"Just Lucky I'm Alive","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"+10 Health per 100 Karma; Karma reset to 0, +10% damage, immunity to critical hits","effects":[],"expansion":"lonesome_road","id":"thought_you_died","level_requirement":50,"name":"Thought You Died","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}},{"benefit":"Enables you to create special explosive recipes at any workbench","effects":["Create special explosive recipes at any workbench"],"expansion":"gun_runners_arsenal","id":"mad_bomber","level_requirement":6,"name":"Mad Bomber","name_female":null,"ranks":1,"required_skills":{},"required_specials":{}}],"status":"success"}
+{
+    "perks": [
+        {
+            "benefit": "+10% damage to the opposite sex and unique dialogue options with certain characters",
+            "effects": [
+                "+10% damage to the opposite sex",
+                "unique dialogue options with the opposite sex"
+            ],
+            "expansion": "base",
+            "id": "lady_killer",
+            "level_requirement": 2,
+            "name": "Lady Killer",
+            "name_female": "Black Widow",
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+10% damage to the same sex and unique dialogue options with certain characters",
+            "effects": [
+                "+10% damage to the same sex",
+                "unique dialogue options with the same sex"
+            ],
+            "expansion": "base",
+            "id": "confirmed_bachelor",
+            "level_requirement": 2,
+            "name": "Confirmed Bachelor",
+            "name_female": "Cherchez La Femme",
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "Your eyes adapt quickly to low-light conditions",
+            "effects": [
+                "Your eyes adapt quickly to low-light conditions"
+            ],
+            "expansion": "base",
+            "id": "friend_of_the_night",
+            "level_requirement": 2,
+            "name": "Friend of the Night",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "sneak": 30
+            },
+            "required_specials": {
+                "perception": 6
+            }
+        },
+        {
+            "benefit": "+50% thrown weapon velocity and range",
+            "effects": [],
+            "expansion": "base",
+            "id": "heave_ho",
+            "level_requirement": 2,
+            "name": "Heave, Ho!",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "explosives": 30
+            },
+            "required_specials": {
+                "strength": 5
+            }
+        },
+        {
+            "benefit": "In combat, you do 75% more critical damage against animals and mutated animals",
+            "effects": [
+                "75% more critical damage against animals and mutated animals"
+            ],
+            "expansion": "base",
+            "id": "hunter",
+            "level_requirement": 2,
+            "name": "Hunter",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 30
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training",
+            "level_requirement": 2,
+            "name": "Intense Training",
+            "name_female": null,
+            "ranks": 10,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "All of your weapon reloads are 25% faster than normal",
+            "effects": [],
+            "expansion": "base",
+            "id": "rapid_reload",
+            "level_requirement": 2,
+            "name": "Rapid Reload",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "guns": 30
+            },
+            "required_specials": {
+                "agility": 5
+            }
+        },
+        {
+            "benefit": "Skill magazines last for 3 real-time minutes",
+            "effects": [],
+            "expansion": "base",
+            "id": "retention",
+            "level_requirement": 2,
+            "name": "Retention",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 5
+            }
+        },
+        {
+            "benefit": "You gain an additional 10% whenever experience points are earned",
+            "effects": [],
+            "expansion": "base",
+            "id": "swift_learner",
+            "level_requirement": 2,
+            "name": "Swift Learner",
+            "name_female": null,
+            "ranks": 3,
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 4
+            }
+        },
+        {
+            "benefit": "When you're in Sneak mode, you gain the option to eat a human corpse to regain hit points, but lose Karma",
+            "effects": [
+                "Can eat human corpses to regain hit points"
+            ],
+            "expansion": "base",
+            "id": "cannibal",
+            "level_requirement": 4,
+            "name": "Cannibal",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You gain one additional skill point for reading books and double the skill points for reading magazines",
+            "effects": [],
+            "expansion": "base",
+            "id": "comprehension",
+            "level_requirement": 4,
+            "name": "Comprehension",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 4
+            }
+        },
+        {
+            "benefit": "You gain two more skill points every time you advance in level",
+            "effects": [],
+            "expansion": "base",
+            "id": "educated",
+            "level_requirement": 4,
+            "name": "Educated",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 4
+            }
+        },
+        {
+            "benefit": "You do an additional 50% damage every time you attack a mutated insect",
+            "effects": [
+                "+50% damage to mutated insects"
+            ],
+            "expansion": "base",
+            "id": "entomologist",
+            "level_requirement": 4,
+            "name": "Entomologist",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 45
+            },
+            "required_specials": {
+                "intelligence": 4
+            }
+        },
+        {
+            "benefit": "Regenerate 2 HP per second per 200 rads accumulated",
+            "effects": [
+                "Regenerate 2 HP per second per 200 rads accumulated"
+            ],
+            "expansion": "base",
+            "id": "rad_child",
+            "level_requirement": 4,
+            "name": "Rad Child",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Halved spread with one-handed ranged weapons while walking or running",
+            "effects": [
+                "Halved spread with one-handed ranged weapons while walking or running"
+            ],
+            "expansion": "base",
+            "id": "run_n_gun",
+            "level_requirement": 4,
+            "name": "Run 'n Gun",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "While wearing light armor or no armor, you run 10% faster",
+            "effects": [],
+            "expansion": "base",
+            "id": "travel_light",
+            "level_requirement": 4,
+            "name": "Travel Light",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 45
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+5% overall damage; more violent death animations",
+            "effects": [],
+            "expansion": "base",
+            "id": "bloody_mess",
+            "level_requirement": 6,
+            "name": "Bloody Mess",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+20% damage with explosives",
+            "effects": [],
+            "expansion": "base",
+            "id": "demolition_expert",
+            "level_requirement": 6,
+            "name": "Demolition Expert",
+            "name_female": null,
+            "ranks": 3,
+            "required_skills": {
+                "explosives": 50
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "When you drop below 50% HP, companions gain +50 DR",
+            "effects": [
+                "When you drop below 50% HP, companions gain +50 DR"
+            ],
+            "expansion": "base",
+            "id": "ferocious_loyalty",
+            "level_requirement": 6,
+            "name": "Ferocious Loyalty",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "charisma": 6
+            }
+        },
+        {
+            "benefit": "Considerably more bottle caps will be found in stockpiles",
+            "effects": [
+                "Considerably more bottle caps will be found in stockpiles"
+            ],
+            "expansion": "base",
+            "id": "fortune_finder",
+            "level_requirement": 6,
+            "name": "Fortune Finder",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+25% accuracy in V.A.T.S. with one-handed weapons",
+            "effects": [
+                "+25% accuracy in V.A.T.S. with one-handed weapons"
+            ],
+            "expansion": "base",
+            "id": "gunslinger",
+            "level_requirement": 6,
+            "name": "Gunslinger",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "When using Guns, you are twice as likely to recover cases and hulls. You also have all hand load recipes unlocked at any reloading benches",
+            "effects": [
+                "All hand load recipes unlocked",
+                "You are twice as likely to recover cases and hulls when using guns"
+            ],
+            "expansion": "base",
+            "id": "hand_loader",
+            "level_requirement": 6,
+            "name": "Hand Loader",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "repair": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "-50% radiation taken from food and water sources",
+            "effects": [
+                "-50% radiation taken from food and water sources"
+            ],
+            "expansion": "base",
+            "id": "lead_belly",
+            "level_requirement": 6,
+            "name": "Lead Belly",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 5
+            }
+        },
+        {
+            "benefit": "When using shotguns, regardless of ammunition used, you ignore an additional 10 points of a target's Damage Threshold",
+            "effects": [
+                "Ignore 10DT when using shotguns"
+            ],
+            "expansion": "base",
+            "id": "shotgun_surgeon",
+            "level_requirement": 6,
+            "name": "Shotgun Surgeon",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "Your sneak attack criticals with revolvers, pistols, and submachine guns (guns and energy weapons) all inflict an additional 20% damage",
+            "effects": [
+                "+20% damage to sneak attack criticals with revolvers, pistols, and submachine guns"
+            ],
+            "expansion": "base",
+            "id": "the_professional",
+            "level_requirement": 6,
+            "name": "The Professional",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "sneak": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+3 DT permanently",
+            "effects": [],
+            "expansion": "base",
+            "id": "toughness",
+            "level_requirement": 6,
+            "name": "Toughness",
+            "name_female": null,
+            "ranks": 2,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 5
+            }
+        },
+        {
+            "benefit": "When using Energy Weapons, you are twice as likely to recover drained ammunition. You also have more efficient recycling recipes available at workbenches",
+            "effects": [
+                "Twice as likely to recover drained ammunition from energy weapons",
+                "More efficient recycling recipes available at workbenches"
+            ],
+            "expansion": "base",
+            "id": "vigilant_recycler",
+            "level_requirement": 6,
+            "name": "Vigilant Recycler",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "science": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+25% accuracy in V.A.T.S. with two-handed weapons",
+            "effects": [
+                "+25% accuracy in V.A.T.S. with two-handed weapons"
+            ],
+            "expansion": "base",
+            "id": "commando",
+            "level_requirement": 8,
+            "name": "Commando",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+25% damage done by dynamite, hatchets, knives, revolvers, and lever-action guns",
+            "effects": [
+                "+25% damage with dynamite, hatchets, knives, revolvers, and lever-action guns"
+            ],
+            "expansion": "base",
+            "id": "cowboy",
+            "level_requirement": 8,
+            "name": "Cowboy",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "guns": 45,
+                "melee": 45
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Shows health and Damage Threshold of any target. +5% bonus to damage against humans and non-feral ghouls",
+            "effects": [
+                "+5% bonus to damage against humans and non-feral ghouls",
+                "Can see health and Damage Threshold of any target"
+            ],
+            "expansion": "base",
+            "id": "living_anatomy",
+            "level_requirement": 8,
+            "name": "Living Anatomy",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "medicine": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Items with a weight of two pounds or less now weigh half as much",
+            "effects": [
+                "Items with a weight of two pounds or less now weigh half as much"
+            ],
+            "expansion": "base",
+            "id": "pack_rat",
+            "level_requirement": 8,
+            "name": "Pack Rat",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "barter": 70
+            },
+            "required_specials": {
+                "intelligence": 5
+            }
+        },
+        {
+            "benefit": "Makes weapon equipping and holstering 50% faster",
+            "effects": [
+                "Weapon equipping and holstering is 50% faster"
+            ],
+            "expansion": "base",
+            "id": "quick_draw",
+            "level_requirement": 8,
+            "name": "Quick Draw",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "agility": 5
+            }
+        },
+        {
+            "benefit": "+25% radiation resistance permanently",
+            "effects": [],
+            "expansion": "base",
+            "id": "rad_resistance",
+            "level_requirement": 8,
+            "name": "Rad Resistance",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 40
+            },
+            "required_specials": {
+                "endurance": 5
+            }
+        },
+        {
+            "benefit": "Considerably more ammunition in stockpiles",
+            "effects": [
+                "Considerably more ammunition in stockpiles"
+            ],
+            "expansion": "base",
+            "id": "scrounger",
+            "level_requirement": 8,
+            "name": "Scrounger",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "luck": 5
+            }
+        },
+        {
+            "benefit": "+5 DT against melee and unarmed attacks and cannot be knocked down during combat",
+            "effects": [
+                "cannot be knocked down during combat",
+                "+5 DT against melee and unarmed attacks"
+            ],
+            "expansion": "base",
+            "id": "stonewall",
+            "level_requirement": 8,
+            "name": "Stonewall",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 6,
+                "strength": 6
+            }
+        },
+        {
+            "benefit": "+50 Carry Weight",
+            "effects": [],
+            "expansion": "base",
+            "id": "strong_back",
+            "level_requirement": 8,
+            "name": "Strong Back",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "edurance": 5,
+                "strength": 5
+            }
+        },
+        {
+            "benefit": "All melee (except thrown) and unarmed attacks have a chance of knocking your target down. 15% for Unarmed or one-handed melee, 30% for two-handed melee",
+            "effects": [
+                "15% chance of unarmed and on-handed melee attacks knocking down your target",
+                "30% chance of two-handed melee attacks knocking down your target"
+            ],
+            "expansion": "base",
+            "id": "super_slam",
+            "level_requirement": 8,
+            "name": "Super Slam!",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "melee_weapons": 45
+            },
+            "required_specials": {
+                "strength": 6
+            }
+        },
+        {
+            "benefit": "Can intimidate foes through dialogue; closing dialogue results in the foe fleeing for 5 seconds",
+            "effects": [
+                "Can intimidate foes through dialogue; closing dialogue results in the foe fleeing for 5 seconds"
+            ],
+            "expansion": "base",
+            "id": "terrifying_presence",
+            "level_requirement": 8,
+            "name": "Terrifying Presence",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "speech": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "You instantly level up again",
+            "effects": [],
+            "expansion": "base",
+            "id": "here_and_now",
+            "level_requirement": 10,
+            "name": "Here and Now",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "On 1st rank, hostile animals become friendly. On 2nd rank they come to your aid against enemies except against other animals",
+            "effects": [
+                "Hostile animals become friendly"
+            ],
+            "expansion": "base",
+            "id": "animal_friend",
+            "level_requirement": 10,
+            "name": "Animal Friend",
+            "name_female": null,
+            "ranks": 2,
+            "required_skills": {
+                "survival": 45
+            },
+            "required_specials": {
+                "charisma": 6
+            }
+        },
+        {
+            "benefit": "+5% Critical Chance",
+            "effects": [],
+            "expansion": "base",
+            "id": "finesse",
+            "level_requirement": 10,
+            "name": "Finesse",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "Reduces all AP costs by 10%",
+            "effects": [],
+            "expansion": "base",
+            "id": "math_wrath",
+            "level_requirement": 10,
+            "name": "Math Wrath",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "10% chance that Miss Fortune will incapacitate a target in V.A.T.S",
+            "effects": [
+                "10% chance that Miss Fortune will incapacitate a target in V.A.T.S"
+            ],
+            "expansion": "base",
+            "id": "miss_fortune",
+            "level_requirement": 10,
+            "name": "Miss Fortune",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "luck": 5
+            }
+        },
+        {
+            "benefit": "Can instantly kill a sleeping non-player character, and earn bonus XP when doing so",
+            "effects": [
+                "Can instantly kill a sleeping non-player character"
+            ],
+            "expansion": "base",
+            "id": "mister_sandman",
+            "level_requirement": 10,
+            "name": "Mister Sandman",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "sneak": 60
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "10% chance that the Stranger will finish off a target in V.A.T.S",
+            "effects": [
+                "10% chance that the Stranger will finish off a target in V.A.T.S"
+            ],
+            "expansion": "base",
+            "id": "mysterious_stranger",
+            "level_requirement": 10,
+            "name": "Mysterious Stranger",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "luck": 5
+            }
+        },
+        {
+            "benefit": "+15 DT and Strength increased to 10 whenever health is 20% or lower",
+            "effects": [
+                "+15 DT and Strength increased to 10 whenever health is 20% or lower"
+            ],
+            "expansion": "base",
+            "id": "nerd_rage",
+            "level_requirement": 10,
+            "name": "Nerd Rage!",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "science": 70
+            },
+            "required_specials": {
+                "intelligence": 5
+            }
+        },
+        {
+            "benefit": "+2 Intelligence and +2 Perception between 6:00 P.M. and 6:00 A.M",
+            "effects": [
+                "+2 Intelligence and +2 Perception between 6:00 P.M. and 6:00 A.M"
+            ],
+            "expansion": "base",
+            "id": "night_person",
+            "level_requirement": 10,
+            "name": "Night Person",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "AP costs for all plasma weapons are reduced by 20%",
+            "effects": [
+                "AP costs for all plasma weapons are reduced by 20%"
+            ],
+            "expansion": "base",
+            "id": "plasma_spaz",
+            "level_requirement": 10,
+            "name": "Plasma Spaz",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "energy_weapons": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+20% Hit Points restored with stimpaks",
+            "effects": [
+                "+20% Hit Points restored with stimpaks"
+            ],
+            "expansion": "base",
+            "id": "fast_metabolism",
+            "level_requirement": 12,
+            "name": "Fast Metabolism",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "When you're in Sneak mode, you gain the option to eat a super mutant or feral ghoul corpse to regain hit points, but lose Karma",
+            "effects": [
+                "Can eat super mutant or feral ghoul corpses to regain hit points"
+            ],
+            "expansion": "base",
+            "id": "ghastly_scavenger",
+            "level_requirement": 12,
+            "name": "Ghastly Scavenger",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+25 DT against explosives",
+            "effects": [
+                "+25 DT against explosives"
+            ],
+            "expansion": "base",
+            "id": "hit_the_deck",
+            "level_requirement": 12,
+            "name": "Hit the Deck",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "explosives": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+30 hit points",
+            "effects": [],
+            "expansion": "base",
+            "id": "life_giver",
+            "level_requirement": 12,
+            "name": "Life Giver",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 6
+            }
+        },
+        {
+            "benefit": "Being over-encumbered no longer prevents you from using fast travel",
+            "effects": [
+                "Being over-encumbered no longer prevents you from using fast travel"
+            ],
+            "expansion": "base",
+            "id": "long_haul",
+            "level_requirement": 12,
+            "name": "Long Haul",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "barter": 70
+            },
+            "required_specials": {
+                "endurance": 6
+            }
+        },
+        {
+            "benefit": "All your unarmed and melee attacks negate 15 points of DT",
+            "effects": [
+                "All your unarmed and melee attacks negate 15 points of DT"
+            ],
+            "expansion": "base",
+            "id": "piercing_strike",
+            "level_requirement": 12,
+            "name": "Piercing Strike",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "unarmed": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+50% damage with fire-based weapons",
+            "effects": [
+                "+50% damage with fire-based weapons"
+            ],
+            "expansion": "base",
+            "id": "pyromaniac",
+            "level_requirement": 12,
+            "name": "Pyromaniac",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "explosives": 60
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+25% damage to robots; can shut down robots by sneaking up on them and deactivating",
+            "effects": [
+                "+25% damage to robots",
+                "Can shut down robots by sneaking up on them"
+            ],
+            "expansion": "base",
+            "id": "robotics_expert",
+            "level_requirement": 12,
+            "name": "Robotics Expert",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "science": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Running no longer factors into a successful sneak attempt",
+            "effects": [
+                "Running no longer factors into a successful sneak attempt"
+            ],
+            "expansion": "base",
+            "id": "silent_running",
+            "level_requirement": 12,
+            "name": "Silent Running",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "sneak": 50
+            },
+            "required_specials": {
+                "agility": 6
+            }
+        },
+        {
+            "benefit": "25% more likely to hit the target's head in V.A.T.S",
+            "effects": [
+                "25% more likely to hit the target's head in V.A.T.S"
+            ],
+            "expansion": "base",
+            "id": "sniper",
+            "level_requirement": 12,
+            "name": "Sniper",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "agility": 6,
+                "perception": 6
+            }
+        },
+        {
+            "benefit": "Explosives have a 25% larger area of effect",
+            "effects": [
+                "Explosives have a 25% larger area of effect"
+            ],
+            "expansion": "base",
+            "id": "splash_damage",
+            "level_requirement": 12,
+            "name": "Splash Damage",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "explosives": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "x4 normal damage through enemy blocks with melee and unarmed attacks",
+            "effects": [
+                "x4 normal damage through enemy blocks with melee and unarmed attacks"
+            ],
+            "expansion": "base",
+            "id": "unstoppable_force",
+            "level_requirement": 12,
+            "name": "Unstoppable Force",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "melee_weapons": 90
+            },
+            "required_specials": {
+                "strength": 7
+            }
+        },
+        {
+            "benefit": "Damage taken by limbs reduced by 50%",
+            "effects": [],
+            "expansion": "base",
+            "id": "adamantium_skeleton",
+            "level_requirement": 14,
+            "name": "Adamantium Skeleton",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "In V.A.T.S., you do an additional 15% damage when targeting the torso",
+            "effects": [
+                "In V.A.T.S., you do an additional 15% damage when targeting the torso"
+            ],
+            "expansion": "base",
+            "id": "center_of_mass",
+            "level_requirement": 14,
+            "name": "Center of Mass",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "guns": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Chems and (in Hardcore) stimpaks last twice as long",
+            "effects": [
+                "Chems and (in Hardcore) stimpaks last twice as long"
+            ],
+            "expansion": "base",
+            "id": "chemist",
+            "level_requirement": 14,
+            "name": "Chemist",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "medicine": 60
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Repair any item using a roughly similar item",
+            "effects": [
+                "Repair any item using a roughly similar item"
+            ],
+            "expansion": "base",
+            "id": "jury_rigging",
+            "level_requirement": 14,
+            "name": "Jury Rigging",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "repair": 90
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Floor traps or mines will not be set off",
+            "effects": [
+                "Floor traps or mines will not be set off"
+            ],
+            "expansion": "base",
+            "id": "light_step",
+            "level_requirement": 14,
+            "name": "Light Step",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "agility": 6,
+                "perception": 6
+            }
+        },
+        {
+            "benefit": "You do 50% extra damage with melee and unarmed weapons against centaurs, night stalkers, spore plants, spore carriers, deathclaws and super mutants",
+            "effects": [
+                "You do 50% extra damage with melee and unarmed weapons against centaurs, night stalkers, spore plants, spore carriers, deathclaws and super mutants"
+            ],
+            "expansion": "base",
+            "id": "purifier",
+            "level_requirement": 14,
+            "name": "Purifier",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+15 Action Points",
+            "effects": [],
+            "expansion": "base",
+            "id": "action_boy",
+            "level_requirement": 16,
+            "name": "Action Boy",
+            "name_female": "Action Girl",
+            "ranks": 2,
+            "required_skills": {},
+            "required_specials": {
+                "agility": 6
+            }
+        },
+        {
+            "benefit": "+50% damage with critical hits",
+            "effects": [],
+            "expansion": "base",
+            "id": "better_criticals",
+            "level_requirement": 16,
+            "name": "Better Criticals",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "luck": 6,
+                "perception": 6
+            }
+        },
+        {
+            "benefit": "Half as likely to get addicted",
+            "effects": [
+                "Half as likely to get addicted"
+            ],
+            "expansion": "base",
+            "id": "chem_resistant",
+            "level_requirement": 16,
+            "name": "Chem Resistant",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "medicine": 60
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Foes killed by your Energy Weapons emit a corona of harmful energy",
+            "effects": [
+                "Foes killed by your Energy Weapons emit a corona of harmful energy"
+            ],
+            "expansion": "base",
+            "id": "meltdown",
+            "level_requirement": 16,
+            "name": "Meltdown",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "energy_weapons": 90
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Fourth \"tag\" skill: +15 points to that skill",
+            "effects": [],
+            "expansion": "base",
+            "id": "tag",
+            "level_requirement": 16,
+            "name": "Tag!",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "Weapon Strength requirements are now 2 points lower than normal for you",
+            "effects": [
+                "Weapon Strength requirements are now 2 points lower than normal for you"
+            ],
+            "expansion": "base",
+            "id": "weapon_handling",
+            "level_requirement": 16,
+            "name": "Weapon Handling",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "Can make one extra attempt to hack a locked-down terminal",
+            "effects": [
+                "Can make one extra attempt to hack a locked-down terminal"
+            ],
+            "expansion": "base",
+            "id": "computer_whiz",
+            "level_requirement": 18,
+            "name": "Computer Whiz",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "science": 70
+            },
+            "required_specials": {
+                "intelligence": 7
+            }
+        },
+        {
+            "benefit": "+5% accuracy in V.A.T.S. with every subsequent attack on a given body part queued",
+            "effects": [
+                "+5% accuracy in V.A.T.S. with every subsequent attack on a given body part queued"
+            ],
+            "expansion": "base",
+            "id": "concentrated_fire",
+            "level_requirement": 18,
+            "name": "Concentrated Fire",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "energy_weapons": 60,
+                "guns": 60
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Can make one more attempt to pick a broken lock",
+            "effects": [
+                "Can make one more attempt to pick a broken lock"
+            ],
+            "expansion": "base",
+            "id": "infiltrator",
+            "level_requirement": 18,
+            "name": "Infiltrator",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "lockpick": 70
+            },
+            "required_specials": {
+                "perception": 6
+            }
+        },
+        {
+            "benefit": "Can paralyze an enemy for 30 seconds with a V.A.T.S. unarmed attack",
+            "effects": [
+                "Can paralyze an enemy for 30 seconds with a V.A.T.S. unarmed attack"
+            ],
+            "expansion": "base",
+            "id": "paralyzing_palm",
+            "level_requirement": 18,
+            "name": "Paralyzing Palm",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "unarmed": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "All locations are marked on your map",
+            "effects": [
+                "All locations are marked on your map"
+            ],
+            "expansion": "base",
+            "id": "explorer",
+            "level_requirement": 20,
+            "name": "Explorer",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "A kill in V.A.T.S. restores 20 AP immediately",
+            "effects": [
+                "A kill in V.A.T.S. restores 20 AP immediately"
+            ],
+            "expansion": "base",
+            "id": "grim_reapers_sprint",
+            "level_requirement": 20,
+            "name": "Grim Reaper's Sprint",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "x1.15 critical chance with melee and unarmed weapons, +25% damage with melee/unarmed sneak attack criticals",
+            "effects": [],
+            "expansion": "base",
+            "id": "ninja",
+            "level_requirement": 20,
+            "name": "Ninja",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "melee_weapons": 80,
+                "sneak": 80
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+2 Strength and +1 HP per second while outside, from 6:00 A.M. to 6:00 P.M",
+            "effects": [
+                "+2 Strength and +1 HP per second while outside, from 6:00 A.M. to 6:00 P.M"
+            ],
+            "expansion": "base",
+            "id": "solar_powered",
+            "level_requirement": 20,
+            "name": "Solar Powered",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 7
+            }
+        },
+        {
+            "benefit": "You do an extra 15% damage and have a 10% extra chance to critically hit with any laser weapon",
+            "effects": [
+                "You do an extra 15% damage and have a 10% extra chance to critically hit with any laser weapon"
+            ],
+            "expansion": "base",
+            "id": "laser_commander",
+            "level_requirement": 22,
+            "name": "Laser Commander",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "energy_weapons": 90
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Unlocks special Nuka-Cola recipes at the workbench",
+            "effects": [
+                "Special Nuka-Cola recipes at the workbench"
+            ],
+            "expansion": "base",
+            "id": "nuka_chemist",
+            "level_requirement": 22,
+            "name": "Nuka Chemist",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "science": 90
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Your attacks do 75% less damage to companions",
+            "effects": [
+                "Your attacks do 75% less damage to companions"
+            ],
+            "expansion": "base",
+            "id": "spray_and_pay",
+            "level_requirement": 22,
+            "name": "Spray and Pray",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "The speed of all your melee and unarmed attacks is increased by 30%",
+            "effects": [],
+            "expansion": "base",
+            "id": "slayer",
+            "level_requirement": 24,
+            "name": "Slayer",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "unarmed": 90
+            },
+            "required_specials": {
+                "agility": 7,
+                "strength": 7
+            }
+        },
+        {
+            "benefit": "20% faster AP regeneration",
+            "effects": [],
+            "expansion": "base",
+            "id": "nerves_of_steel",
+            "level_requirement": 26,
+            "name": "Nerves of Steel",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "agility": 7
+            }
+        },
+        {
+            "benefit": "-1 Rad every 20 seconds",
+            "effects": [],
+            "expansion": "base",
+            "id": "rad_absorption",
+            "level_requirement": 28,
+            "name": "Rad Absorption",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 7
+            }
+        },
+        {
+            "benefit": "+5 DT against energy weapons while wearing metal armor, with a further +2 DT while wearing reflective eyewear or helmets",
+            "effects": [],
+            "expansion": "dead_money",
+            "id": "in_shining_armor",
+            "level_requirement": 2,
+            "name": "In Shining Armor",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "repair": 20,
+                "science": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can craft ammunition using scrap metal and tin cans",
+            "effects": [
+                "You can craft ammunition using scrap metal and tin cans"
+            ],
+            "expansion": "dead_money",
+            "id": "junk_rounds",
+            "level_requirement": 2,
+            "name": "Junk Rounds",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "repair": 45
+            },
+            "required_specials": {
+                "luck": 6
+            }
+        },
+        {
+            "benefit": "While wearing light armor you gain +5% critical hit chance and your enemies suffer a -25% critical hit chance",
+            "effects": [],
+            "expansion": "dead_money",
+            "id": "light_touch",
+            "level_requirement": 2,
+            "name": "Light Touch",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "repair": 45
+            },
+            "required_specials": {
+                "agility": 6
+            }
+        },
+        {
+            "benefit": "+25% addiction resistance. +50% health bonus from snack foods. Scotch, vodka and wine now give you health in addition to their normal effects",
+            "effects": [
+                "Scotch, vodka and wine now give you health in addition to their normal effects",
+                "+50% health bonus from snack foods"
+            ],
+            "expansion": "dead_money",
+            "id": "old_world_gourmet",
+            "level_requirement": 2,
+            "name": "Old World Gourmet",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 45
+            },
+            "required_specials": {
+                "endurance": 6
+            }
+        },
+        {
+            "benefit": "Shotguns have a 10% chance, per pellet, of knocking an enemy back",
+            "effects": [
+                "Shotguns have a 10% chance, per pellet, of knocking an enemy back"
+            ],
+            "expansion": "dead_money",
+            "id": "and_stay_back",
+            "level_requirement": 10,
+            "name": "And Stay Back",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "guns": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Weapons with a weight of more than 10 are cut in half. This does not affect weapons modded to under 10 wg",
+            "effects": [
+                "Weapons with a weight of more than 10 are cut in half. This does not affect weapons modded to under 10 wg"
+            ],
+            "expansion": "dead_money",
+            "id": "heavyweight",
+            "level_requirement": 12,
+            "name": "Heavyweight",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "strength": 7
+            }
+        },
+        {
+            "benefit": "Your chance to hit an opponent's legs in V.A.T.S. is increased by 25%",
+            "effects": [
+                "Your chance to hit an opponent's legs in V.A.T.S. is increased by 25%"
+            ],
+            "expansion": "dead_money",
+            "id": "hobbler",
+            "level_requirement": 12,
+            "name": "Hobbler",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "perception": 7
+            }
+        },
+        {
+            "benefit": "25% more damage with 9mm pistols and SMGs, .45 pistols and SMGs, service rifles, assault and Marksman carbines, light machine guns, frag grenades, grenade rifles and launchers and combat knives",
+            "effects": [
+                "25% more damage with 9mm pistols and SMGs, .45 pistols and SMGs, service rifles, assault and Marksman carbines, light machine guns, frag grenades, grenade rifles and launchers and combat knives"
+            ],
+            "expansion": "honest_hearts",
+            "id": "grunt",
+            "level_requirement": 8,
+            "name": "Grunt",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "explosives": 20,
+                "guns": 45
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Whenever you interact with a campfire, you have the option of sleeping, with all the benefits that sleep brings",
+            "effects": [],
+            "expansion": "honest_hearts",
+            "id": "home_on_the_range",
+            "level_requirement": 8,
+            "name": "Home on the Range",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+15% Damage and +25% accuracy in V.A.T.S. to various tribal and raider characters",
+            "effects": [
+                "+15% Damage and +25% accuracy in V.A.T.S. to various tribal and raider characters"
+            ],
+            "expansion": "honest_hearts",
+            "id": "sneering_imperialist",
+            "level_requirement": 8,
+            "name": "Sneering Imperialist",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "-50% limb damage from animals, mutated animals, and mutated insects, +25% to Poison resistance, ability to eat mutated insects in sneak mode",
+            "effects": [
+                "-50% limb damage from animals, mutated animals, and mutated insects, +25% to Poison resistance, ability to eat mutated insects in sneak mode"
+            ],
+            "expansion": "honest_hearts",
+            "id": "tribal_wisdom",
+            "level_requirement": 8,
+            "name": "Tribal Wisdom",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 70
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+2 Damage Threshold and +5% Critical chance against anyone wearing NCR, Legion or Brotherhood of Steel armor",
+            "effects": [
+                "+2 Damage Threshold and +5% Critical chance against anyone wearing NCR, Legion or Brotherhood of Steel armor"
+            ],
+            "expansion": "honest_hearts",
+            "id": "fight_the_power",
+            "level_requirement": 10,
+            "name": "Fight the Power!",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "For each crippled limb you have, you do an additional 10% damage",
+            "effects": [
+                "For each crippled limb you have, you do an additional 10% damage"
+            ],
+            "expansion": "honest_hearts",
+            "id": "eye_for_eye",
+            "level_requirement": 20,
+            "name": "Eye for Eye",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "In irradiated areas, +25% move and attack speed, +2 DT, +2 ST. With excess rad level, AP regen scales from 1.1 times to 1.5 times normal",
+            "effects": [
+                "In irradiated areas, +25% move and attack speed, +2 DT, +2 ST. With excess rad level, AP regen scales from 1.1 times to 1.5 times normal"
+            ],
+            "expansion": "old_world_blues",
+            "id": "atomic",
+            "level_requirement": 20,
+            "name": "Atomic!",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 6
+            }
+        },
+        {
+            "benefit": "You have come to understand night stalkers. Consuming night stalker squeezin's now grants bonuses to Perception (+1 PER), Poison Resistance (+5), and Stealth (+5 Sneak) in addition to the normal benefits",
+            "effects": [
+                "Consuming night stalker squeezin's now grants bonuses to Perception (+1 PER), Poison Resistance (+5), and Stealth (+5 Sneak) in addition to the normal benefits"
+            ],
+            "expansion": "old_world_blues",
+            "id": "mile_in_their_shoes",
+            "level_requirement": 20,
+            "name": "Mile in Their Shoes",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 25
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Any living creature you kill has a 50% chance to have the potent healing items thin red paste or blood sausage when looted",
+            "effects": [
+                "Any living creature you kill has a 50% chance to have the potent healing items thin red paste or blood sausage when looted"
+            ],
+            "expansion": "old_world_blues",
+            "id": "thems_good_eatin",
+            "level_requirement": 20,
+            "name": "Them's Good Eatin'",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 55
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "You gain a non-addictive subdermal turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10 (activated in the Pip-Boy inventory)",
+            "effects": [
+                "Non-addictive subdermal turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10"
+            ],
+            "expansion": "old_world_blues",
+            "id": "implant_grx",
+            "level_requirement": 30,
+            "name": "Implant GRX",
+            "name_female": null,
+            "ranks": 2,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 8
+            }
+        },
+        {
+            "benefit": "+2 Perception when crouched and still",
+            "effects": [
+                "+2 Perception when crouched and still"
+            ],
+            "expansion": "lonesome_road",
+            "id": "alertness",
+            "level_requirement": 12,
+            "name": "Alertness",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+1 Perception and Agility when outside",
+            "effects": [
+                "+1 Perception and Agility when outside"
+            ],
+            "expansion": "lonesome_road",
+            "id": "walker_instinct",
+            "level_requirement": 18,
+            "name": "Walker Instinct",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 50
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "Sleep removes all Rads (Hardcore: only -100 Rads)",
+            "effects": [
+                "Sleep removes all Rads (Hardcore: only -100 Rads)"
+            ],
+            "expansion": "lonesome_road",
+            "id": "irradiated_beauty",
+            "level_requirement": 22,
+            "name": "Irradiated Beauty",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 8
+            }
+        },
+        {
+            "benefit": "Damaged books become blank magazines; can copy existing magazines into blank magazines",
+            "effects": [
+                "Damaged books become blank magazines; can copy existing magazines into blank magazines"
+            ],
+            "expansion": "lonesome_road",
+            "id": "voracious_reader",
+            "level_requirement": 22,
+            "name": "Voracious Reader",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 7
+            }
+        },
+        {
+            "benefit": "+1% XP gain per player level",
+            "effects": [],
+            "expansion": "lonesome_road",
+            "id": "lessons_learned",
+            "level_requirement": 26,
+            "name": "Lessons Learned",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 6
+            }
+        },
+        {
+            "benefit": "+25% sneaking speed when wearing light or no armor",
+            "effects": [],
+            "expansion": "lonesome_road",
+            "id": "tunnel_runner",
+            "level_requirement": 26,
+            "name": "Tunnel Runner",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "agility": 8
+            }
+        },
+        {
+            "benefit": "Sleeping outside gives Well Rested benefit",
+            "effects": [
+                "Sleeping outside gives Well Rested benefit"
+            ],
+            "expansion": "lonesome_road",
+            "id": "roughin_it",
+            "level_requirement": 28,
+            "name": "Roughin' It",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {
+                "survival": 100
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+50 carry weight",
+            "effects": [],
+            "expansion": "lonesome_road",
+            "id": "burden_to_bear",
+            "level_requirement": 30,
+            "name": "Burden to Bear",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 6,
+                "strength": 6
+            }
+        },
+        {
+            "benefit": "No Sneak penalty for using Pip-Boy light",
+            "effects": [
+                "No Sneak penalty for using Pip-Boy light"
+            ],
+            "expansion": "lonesome_road",
+            "id": "broad_daylight",
+            "level_requirement": 36,
+            "name": "Broad Daylight",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+25% critical hit chance against robots, 85% chance of finding an extra crafting component on destroyed robots",
+            "effects": [
+                "+25% critical hit chance against robots",
+                "85% chance of finding an extra crafting component on destroyed robots"
+            ],
+            "expansion": "lonesome_road",
+            "id": "certified_tech",
+            "level_requirement": 40,
+            "name": "Certified Tech",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "Karma reset to 0, +25% AP regeneration rate, +20% attack speed, immunity to critical hits",
+            "effects": [],
+            "expansion": "lonesome_road",
+            "id": "aint_like_that_now",
+            "level_requirement": 50,
+            "name": "Ain't Like That Now",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+4 Luck for 3 minutes upon finishing a battle with less than 25% health; immunity to critical hits, +50% critical damage",
+            "effects": [
+                "+4 Luck for 3 minutes upon finishing a battle with less than 25% health"
+            ],
+            "expansion": "lonesome_road",
+            "id": "just_lucky_im_alive",
+            "level_requirement": 50,
+            "name": "Just Lucky I'm Alive",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "+10 Health per 100 Karma; Karma reset to 0, +10% damage, immunity to critical hits",
+            "effects": [],
+            "expansion": "lonesome_road",
+            "id": "thought_you_died",
+            "level_requirement": 50,
+            "name": "Thought You Died",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "Enables you to create special explosive recipes at any workbench",
+            "effects": [
+                "Create special explosive recipes at any workbench"
+            ],
+            "expansion": "gun_runners_arsenal",
+            "id": "mad_bomber",
+            "level_requirement": 6,
+            "name": "Mad Bomber",
+            "name_female": null,
+            "ranks": 1,
+            "required_skills": {},
+            "required_specials": {}
+        }
+    ],
+    "status": "success"
+}

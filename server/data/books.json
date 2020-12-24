@@ -1,1 +1,83 @@
-{"books":[{"effected_skill":"barter","id":"book_barter","name":"Tales of a Junktown Jerky Vendor","quantity":6},{"effected_skill":"energy_weapons","id":"book_energy_weapons","name":"Nikola Tesla and You","quantity":6},{"effected_skill":"explosives","id":"book_explosives","name":"Duck and Cover!","quantity":6},{"effected_skill":"guns","id":"book_guns","name":"Guns and Bullets","quantity":6},{"effected_skill":"lockpick","id":"book_lockpick","name":"Tumblers Today","quantity":6},{"effected_skill":"medicine","id":"book_medicine","name":"D.C. Journal of Internal Medicine","quantity":6},{"effected_skill":"melee_weapons","id":"book_melee_weapons","name":"Grognak the Barbarian","quantity":6},{"effected_skill":"repair","id":"book_repair","name":"Dean's Electronics","quantity":6},{"effected_skill":"science","id":"book_science","name":"Big Book of Science","quantity":8},{"effected_skill":"sneak","id":"book_sneak","name":"Chinese Army: Special Ops Training Manual","quantity":8},{"effected_skill":"speech","id":"book_speech","name":"Lying, Congressional Style","quantity":6},{"effected_skill":"survival","id":"book_survival","name":"Wasteland Survival Guide","quantity":5},{"effected_skill":"unarmed","id":"book_unarmed","name":"Pugilism Illustrated","quantity":6}],"status":"success"}
+{
+    "books": [
+        {
+            "effected_skill": "barter",
+            "id": "book_barter",
+            "name": "Tales of a Junktown Jerky Vendor",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "energy_weapons",
+            "id": "book_energy_weapons",
+            "name": "Nikola Tesla and You",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "explosives",
+            "id": "book_explosives",
+            "name": "Duck and Cover!",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "guns",
+            "id": "book_guns",
+            "name": "Guns and Bullets",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "lockpick",
+            "id": "book_lockpick",
+            "name": "Tumblers Today",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "medicine",
+            "id": "book_medicine",
+            "name": "D.C. Journal of Internal Medicine",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "melee_weapons",
+            "id": "book_melee_weapons",
+            "name": "Grognak the Barbarian",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "repair",
+            "id": "book_repair",
+            "name": "Dean's Electronics",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "science",
+            "id": "book_science",
+            "name": "Big Book of Science",
+            "quantity": 8
+        },
+        {
+            "effected_skill": "sneak",
+            "id": "book_sneak",
+            "name": "Chinese Army: Special Ops Training Manual",
+            "quantity": 8
+        },
+        {
+            "effected_skill": "speech",
+            "id": "book_speech",
+            "name": "Lying, Congressional Style",
+            "quantity": 6
+        },
+        {
+            "effected_skill": "survival",
+            "id": "book_survival",
+            "name": "Wasteland Survival Guide",
+            "quantity": 5
+        },
+        {
+            "effected_skill": "unarmed",
+            "id": "book_unarmed",
+            "name": "Pugilism Illustrated",
+            "quantity": 6
+        }
+    ],
+    "status": "success"
+}
