@@ -2,55 +2,68 @@
     "skills": [
         {
             "id": "barter",
-            "name": "Barter"
+            "name": "Barter",
+            "special_id": "charisma"
         },
         {
             "id": "energy_weapons",
-            "name": "Energy Weapons"
+            "name": "Energy Weapons",
+            "special_id": "perception"
         },
         {
             "id": "explosives",
-            "name": "Explosives"
+            "name": "Explosives",
+            "special_id": "perception"
         },
         {
             "id": "guns",
-            "name": "Guns"
+            "name": "Guns",
+            "special_id": "agility"
         },
         {
             "id": "lockpick",
-            "name": "Lockpick"
+            "name": "Lockpick",
+            "special_id": "perception"
         },
         {
             "id": "medicine",
-            "name": "Medicine"
+            "name": "Medicine",
+            "special_id": "intelligence"
         },
         {
             "id": "melee_weapons",
-            "name": "Melee weapons"
+            "name": "Melee weapons",
+            "special_id": "strength"
         },
         {
             "id": "repair",
-            "name": "Repair"
+            "name": "Repair",
+            "special_id": "intelligence"
         },
         {
             "id": "science",
-            "name": "Science"
+            "name": "Science",
+            "special_id": "intelligence"
         },
         {
             "id": "sneak",
-            "name": "Sneak"
+            "name": "Sneak",
+            "special_id": "agility"
         },
         {
             "id": "speech",
-            "name": "Speech"
+            "name": "Speech",
+            "special_id": "charisma"
         },
         {
             "id": "survival",
-            "name": "Surival"
+            "name": "Surival",
+            "special_id": "endurance"
         },
         {
             "id": "unarmed",
-            "name": "Unarmed"
+            "name": "Unarmed",
+            "special_id": "endurance"
         }
     ],
     "status": "success"

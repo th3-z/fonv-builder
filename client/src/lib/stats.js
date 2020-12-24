@@ -4,12 +4,7 @@ function actionPoints(player) {
     let bonus = 0
 
     if (player.traits.includes("kamikaze")) bonus += 10
-
     
-
-
-
-
     return base + bonus;
 }
 

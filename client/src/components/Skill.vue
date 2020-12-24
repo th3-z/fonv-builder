@@ -4,7 +4,8 @@
         <b-form-spinbutton
             id="sb-skill"
             size="sm"
-            v-model="player.base_skills[skill.id].value"
+            :value="computedSkill(skill)"
+            @change="changeSkill($event, skill)"
             min="15"
             max="100"
             inline
@@ -21,11 +22,14 @@
 
 <script>
     import { mapGetters } from 'vuex';
+    import computedSkill from '../lib/skills.js';
 
     export default {
         name: 'Skill',
         props: ['skill'],
-        computed: mapGetters(['player']),
+        computed: {
+            ...mapGetters(['player']),
+        },
         methods: {
             tagSkill(checked, skillId) {
                 if (checked) {
@@ -35,6 +39,13 @@
                     this.player.base_skills[skillId].value -= 15
                     this.player.skill_points -= 15
                 }
+            },
+            computedSkill(skill) {
+                return computedSkill.skill(this.player, skill)
+            },
+            changeSkill(event, skill) {
+                const delta = event - computedSkill.skill(this.player, skill)
+                this.player.base_skills[skill.id].value += delta
             }
         }
     }
