@@ -9,6 +9,9 @@
         <p
             v-bind:class="{'error':remainingTags < 0}"
         >Remaining tags: {{remainingTags}}</p>
+        <p v-if="hasComprehension()">
+            <em>Assumes skill books are consumed after taking comprehension.</em>
+        </p>
     </div>
 </template>
 
@@ -54,6 +57,14 @@ export default {
     data() {
         return {
             skills: []
+        }
+    },
+    methods: {
+        hasComprehension() {
+            if (this.player.perks.find(perk => perk.id == "comprehension")) {
+                return true
+            }
+            return false
         }
     },
     created() {

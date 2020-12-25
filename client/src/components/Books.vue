@@ -3,6 +3,7 @@
         <div v-bind:key="book.id" v-for="book in books">
             <book v-bind:book="book"/>
         </div>
+        <p>Maximum includes all DLC books, and skill book recipes found in Old World Blues but excludes random loot books from Honest Hearts.</p>
     </div>
 </template>
 
