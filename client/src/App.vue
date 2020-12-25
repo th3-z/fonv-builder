@@ -13,6 +13,7 @@
         </b-tab>
         <b-tab title="Traits"><Traits/></b-tab>
         <b-tab title="Perks"><Perks/></b-tab>
+        <b-tab title="Books"><Books/></b-tab>
         <b-tab title="Stats"><Stats/></b-tab>
         <b-tab title="Other effects"><OtherEffects/></b-tab>
       </b-tabs>
@@ -31,6 +32,7 @@
   import Traits from './components/Traits.vue'
   import Skills from './components/Skills.vue'
   import Perks from './components/Perks.vue'
+  import Books from './components/Books.vue'
   import OtherEffects from './components/OtherEffects.vue'
   import Stats from './components/Stats.vue'
   import BasicInfo from './components/BasicInfo.vue'
@@ -44,17 +46,19 @@
       Traits,
       Skills,
       Perks,
+      Books,
       OtherEffects,
       Stats,
       BasicInfo
     },
     methods: {
-        ...mapActions(['newPlayer', 'loadTraits', 'loadPerks'])
+        ...mapActions(['newPlayer', 'loadTraits', 'loadPerks', 'loadBooks'])
     },
     created() {
         this.newPlayer();
         this.loadTraits();
         this.loadPerks();
+        this.loadBooks();
     },
   }
 </script>

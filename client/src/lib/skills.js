@@ -17,11 +17,11 @@ function skill(player, skill) {
     // Books
     const has_comprehension = player.perks.find(perk => perk.id == "comprehension")
     for (let book in player.books) {
-        if (book.id == skill.book_id) {
+        if (player.books[book] == skill.book_id) {
             if (has_comprehension) {
-                bonus += 3
-            } else {
                 bonus += 4
+            } else {
+                bonus += 3
             }
         }
     }
