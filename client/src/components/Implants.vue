@@ -4,7 +4,7 @@
             <implant v-bind:implant="implant"/>
         </div>
         <p>Endurance implant does not affect implant capacity</p>
-        <p>Remaining implants: ?</p>
+        <p>Remaining implants: {{remainingImplants()}}</p>
     </div>
 </template>
 
@@ -30,6 +30,11 @@ export default {
         axios.get(process.env.VUE_APP_ROOT_API + "/implants")
             .then(res => this.implants = res.data.implants)
             .catch(err => console.log(err));
+    },
+    methods: {
+        remainingImplants() {
+            return this.player.base_specials.endurance - this.player.implants.length
+        }
     }
 }
 </script>

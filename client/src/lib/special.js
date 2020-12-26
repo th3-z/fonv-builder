@@ -12,6 +12,11 @@ function special(player, special) {
         bonus += 1
     }
 
+    // Implant
+    if (player.implants.find(implant => implant == special.implant_id)) {
+        bonus += 1
+    }
+
     return Math.min(
         10,
         player.base_specials[special.id] + bonus - penalty

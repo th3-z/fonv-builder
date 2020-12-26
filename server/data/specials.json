@@ -3,37 +3,44 @@
         {
             "id": "strength",
             "name": "Strength",
-            "name_short": "ST"
+            "name_short": "ST",
+            "implant_id": "strength_implant"
         },
         {
             "id": "perception",
             "name": "Perception",
-            "name_short": "PE"
+            "name_short": "PE",
+            "implant_id": "perception_implant"
         },
         {
             "id": "endurance",
             "name": "Endurance",
-            "name_short": "EN"
+            "name_short": "EN",
+            "implant_id": "endurance_implant"
         },
         {
             "id": "charisma",
             "name": "Charisma",
-            "name_short": "CH"
+            "name_short": "CH",
+            "implant_id": "charisma_implant"
         },
         {
             "id": "intelligence",
             "name": "Intelligence",
-            "name_short": "IN"
+            "name_short": "IN",
+            "implant_id": "intelligence_implant"
         },
         {
             "id": "agility",
             "name": "Agility",
-            "name_short": "AG"
+            "name_short": "AG",
+            "implant_id": "agility_implant"
         },
         {
             "id": "luck",
             "name": "Luck",
-            "name_short": "LU"
+            "name_short": "LU",
+            "implant_id": "luck_implant"
         }
     ],
     "status": "success"
