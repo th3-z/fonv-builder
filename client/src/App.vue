@@ -13,9 +13,14 @@
         </b-tab>
         <b-tab title="Traits"><Traits/></b-tab>
         <b-tab title="Perks"><Perks/></b-tab>
-        <b-tab title="Books"><Books/></b-tab>
-        <b-tab title="Stats"><Stats/></b-tab>
-        <b-tab title="Other effects"><OtherEffects/></b-tab>
+        <b-tab title="Books &amp; Implants">
+          <b-row>
+            <b-col><Books/></b-col>
+            <b-col><Implants/></b-col>
+          </b-row>
+        </b-tab>
+        <b-tab title="Derived Stats"><Stats/></b-tab>
+        <b-tab title="Effects"><OtherEffects/></b-tab>
       </b-tabs>
     </div>
 
@@ -33,6 +38,7 @@
   import Skills from './components/Skills.vue'
   import Perks from './components/Perks.vue'
   import Books from './components/Books.vue'
+  import Implants from './components/Implants.vue'
   import OtherEffects from './components/OtherEffects.vue'
   import Stats from './components/Stats.vue'
   import BasicInfo from './components/BasicInfo.vue'
@@ -44,6 +50,7 @@
       Footer,
       Specials,
       Traits,
+      Implants,
       Skills,
       Perks,
       Books,
@@ -52,13 +59,14 @@
       BasicInfo
     },
     methods: {
-        ...mapActions(['newPlayer', 'loadTraits', 'loadPerks', 'loadBooks'])
+        ...mapActions(['newPlayer', 'loadTraits', 'loadPerks', 'loadBooks', 'loadImplants'])
     },
     created() {
         this.newPlayer();
         this.loadTraits();
         this.loadPerks();
         this.loadBooks();
+        this.loadImplants();
     },
   }
 </script>
