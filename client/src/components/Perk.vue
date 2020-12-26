@@ -21,8 +21,8 @@
           :id="'sb-' + perk.id + '-level'"
           size="sm"
           min="2"
-          :max="player.level"
-          placeholder="6"
+          max="50"
+          placeholder="2"
           step="2"
           inline
       ></b-form-spinbutton>
@@ -34,13 +34,12 @@
             size="sm"
             min="1"
             :max="perk.ranks"
+            placeholder="1"
             step="1"
             inline
         ></b-form-spinbutton>
       </span>
     </template>
-
-    
   </b-card>
 </template>
 
@@ -55,7 +54,13 @@
         ...mapActions(['addPerk', 'removePerk', 'setPerkLevel', 'setPerkRank']),
         togglePerk(checked, perkId) {
           if (checked) {
-            this.addPerk(perkId);
+            const level = document.getElementById("sb-" + perkId + "-level")
+            const rank = document.getElementById("sb-" + perkId + "-rank")
+            this.addPerk(perkId)
+            this.setPerkLevel({perk_id: perkId, level: Number(level.value)})
+            if (rank) {
+              this.setPerkRank({perk_id: perkId, rank: Number(rank.value)})
+            }
           } else {
             this.removePerk(perkId);
           }

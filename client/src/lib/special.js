@@ -18,7 +18,23 @@ function special(player, special) {
     )
 }
 
+function remainingPoints(player) {
+    let specialsTotal = 0
+    for(let special in player.base_specials) {
+        specialsTotal += player.base_specials[special]
+    }
+
+    const intenseTraining = player.perks.find(perk => perk.id == "intense_training")
+    let intenseTrainingRanks = 0
+    if (intenseTraining) {
+        intenseTrainingRanks = intenseTraining.rank
+    }
+
+    return player.special_points - specialsTotal + intenseTrainingRanks
+}
+
 export default {
-    special
+    special,
+    remainingPoints
 }
 

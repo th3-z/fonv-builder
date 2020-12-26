@@ -36,11 +36,19 @@ const actions = {
         }
     },
 
-    setPerkLevel({commit, rootState}, perkId, level) {
+    setPerkLevel({commit, rootState}, payload) {
         commit('setPerkLevel', {
             player: rootState.player.player,
-            perk_id: perkId,
-            level: level
+            perk_id: payload.perk_id,
+            level: payload.level
+        });
+    },
+
+    setPerkRank({commit, rootState}, payload) {
+        commit('setPerkRank', {
+            player: rootState.player.player,
+            perk_id: payload.perk_id,
+            rank: payload.rank
         });
     }
 };

@@ -14,6 +14,8 @@ import Special from './Special.vue';
 import { mapGetters } from 'vuex';
 import axios from 'axios';
 
+import computedSpecial from '../lib/special.js'
+
 export default {
     name: "Specials",
     components: {
@@ -22,12 +24,7 @@ export default {
     computed: {
         ...mapGetters(['player']),
         remainingSpecial() {
-            let specialsTotal = 0;
-            for(let special in this.player.base_specials) {
-                specialsTotal += this.player.base_specials[special];
-            }
-
-            return this.player.special_points - specialsTotal;
+            return computedSpecial.remainingPoints(this.player)
         }
     },
     created() {
