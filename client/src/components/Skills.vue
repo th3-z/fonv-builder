@@ -30,6 +30,10 @@ export default {
         remainingSkillPoints() {
             const baseSkillPoints = this.player.skill_points;
 
+            // find int implant
+
+            // find intense trainings for int
+
             let earnedSkillPoints = 
                 (this.player.level -  1)  // No points are earned for level 1
                 * (10 + this.player.base_specials.intelligence*0.5);
@@ -38,6 +42,8 @@ export default {
             for(let skill in this.player.base_skills) {
                 skillsTotal += this.player.base_skills[skill].value;
             }
+
+            
 
             return Math.floor((baseSkillPoints+earnedSkillPoints) - skillsTotal);
         },

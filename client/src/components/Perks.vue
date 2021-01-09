@@ -16,6 +16,19 @@
                     <p>{{ reqString(getPerk(perk.id)) }}</p>
                 </div>
                 <div class="col-sm">
+                    <b-form-select
+                        v-if="perk.id.substring(0,16) == 'intense_training'"
+                        @change="setPerkSpecial({perk_id: perk.id, special: $event})"
+                    >
+                        <!-- FIXME: vuex -->
+                        <b-form-select-option value="strength" selected>Strength</b-form-select-option>
+                        <b-form-select-option value="perception">Perception</b-form-select-option>
+                        <b-form-select-option value="endurance">Endurance</b-form-select-option>
+                        <b-form-select-option value="charisma">Charisma</b-form-select-option>
+                        <b-form-select-option value="intelligence">intelligence</b-form-select-option>
+                        <b-form-select-option value="agility">Agility</b-form-select-option>
+                        <b-form-select-option value="luck">Luck</b-form-select-option>
+                    </b-form-select>
                     <label :for="'sb-' + perk.id + '-level'" class="col-sm-2 col-form-label">Level</label>
                     <b-form-spinbutton
                         :id="'sb-' + perk.id + '-level'"
@@ -59,7 +72,7 @@ export default {
         }
     },
     methods: {
-        ...mapActions(['removePerk', 'setPerkLevel']),
+        ...mapActions(['removePerk', 'setPerkLevel', 'setPerkSpecial']),
         reqString(perk) {
             return perks.reqString(perk)
         }
