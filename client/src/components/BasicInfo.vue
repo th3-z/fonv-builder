@@ -28,6 +28,13 @@
                 inline
             ></b-form-spinbutton>
 
+            <b-form-checkbox
+                inline
+                id="jsmod"
+                class="mb-2 mr-sm-2 mb-sm-0"
+                @input="toggleJsMod($event)"
+            >JSawyer's mod</b-form-checkbox>
+
             <b-button
                 id="export"
                 variant="outline-primary"
@@ -82,6 +89,9 @@
                 };
                 reader.readAsText(this.importFile);  
             },
+            toggleJsMod(event) {
+                this.player.jsmod = event
+            }
         },
         data() {
             return {
@@ -98,7 +108,7 @@
 <style>
     .file-import {
         max-width: 20em;
-    }
+    } 
 
     .custom-file-label {
         /* Overrides styling on the file browser's label */

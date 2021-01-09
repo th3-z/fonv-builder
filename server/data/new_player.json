@@ -72,7 +72,8 @@
         "random_books": 4,
         "skill_points": 195,
         "special_points": 41,
-        "traits": []
+        "traits": [],
+        "jsmod": false
     },
     "status": "success"
 }
