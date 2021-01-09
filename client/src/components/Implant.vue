@@ -20,10 +20,10 @@
       <b-form-spinbutton
           :id="'sb-' + implant.id + '-level'"
           size="sm"
-          min="2"
-          :max="player.level"
-          placeholder="6"
-          step="2"
+          min="1"
+          max="50"
+          placeholder="1"
+          @input="setImplantLevel({implantId: implant.id, level: $event})"
           inline
       ></b-form-spinbutton>
     </template>
@@ -40,10 +40,13 @@
             ...mapGetters(['player']),
         },
         methods: {
-            ...mapActions(['addImplant', 'removeImplant']),
+            ...mapActions(['addImplant', 'removeImplant', 'setImplantLevel']),
             toggleImplant(checked, implantId) {
                 if (checked) {
-                    this.addImplant(implantId);
+                    this.addImplant({
+                        implantId: implantId,
+                        level: document.getElementById('sb-' + implantId + '-level').value
+                    });
                 } else {
                     this.removeImplant(implantId);
                 }

@@ -14,11 +14,20 @@ const actions = {
         commit('setImplants', response.data.implants);
     },
 
-    addImplant({ commit, rootState }, implantId) {
+    addImplant({ commit, rootState }, payload) {
         commit('addImplantGeneric', {
             player: rootState.player.player,
-            implant_id: implantId
+            implant_id: payload.implantId,
+            level: payload.level
         });
+    },
+
+    setImplantLevel({ commit, rootState }, payload) {
+        commit('setImplantLevel', {
+            player: rootState.player.player,
+            implant_id: payload.implantId,
+            level: payload.level
+        })
     },
 
     removeImplant({commit, rootState}, implantId) {
@@ -30,15 +39,24 @@ const actions = {
 };
 
 const mutations = {
-    setImplants: (state, implants) => (state.impalnts = implants),
+    setImplants: (state, implants) => (state.implants = implants),
 
     addImplantGeneric(state, payload) {
-        payload.player.implants.push(payload.implant_id);
+        payload.player.implants.push({
+            id: payload.implant_id,
+            level: payload.level
+        });
+    },
+
+    setImplantLevel(state, payload) {
+        payload.player.implants.find(
+            implant => implant.id === payload.implant_id
+        ).level = payload.level
     },
 
     removeImplantGeneric(state, payload) {
         payload.player.implants.splice(
-            payload.player.implants.indexOf(payload.implant_id),
+            payload.player.implants.findIndex(implant => implant.id === payload.implant_id),
             1
         );
     },

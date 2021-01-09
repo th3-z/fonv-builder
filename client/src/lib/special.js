@@ -13,7 +13,7 @@ function special(player, special) {
     }
 
     // Implant
-    if (player.implants.find(implant => implant == special.implant_id)) {
+    if (player.implants.find(implant => implant.id == special.implant_id)) {
         bonus += 1
     }
 
