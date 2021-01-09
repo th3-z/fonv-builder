@@ -1,57 +1,33 @@
 <template>
-  <b-card class="mb-1 mt-1 ml-1 mr-1 perk-card">
-    <template v-slot:header>
-      <b-form-checkbox
-        inline
-        :id="perk.id"
-        class="mr-1"
-        @input="togglePerk($event, perk.id)"
-      ></b-form-checkbox>
-      
-      <label :for="perk.id">
-        <strong>{{ perk.name }}</strong>
-      </label>
-    </template>
-
-    <p class="benefit">{{ perk.benefit }}</p>
-
-    <template v-slot:footer>
-      <label :for="'sb-' + perk.id + '-level'" class="col-sm-2 col-form-label">Level</label>
-      <b-form-spinbutton
-          :id="'sb-' + perk.id + '-level'"
-          size="sm"
-          min="2"
-          max="50"
-          placeholder="2"
-          step="2"
-          inline
-      ></b-form-spinbutton>
-
-      <span v-if="perk.ranks > 1">
-        <label :for="'sb-' + perk.id + '-rank'" class="col-sm-2 col-form-label">Rank</label>
-        <b-form-spinbutton
-            :id="'sb-' + perk.id + '-rank'"
-            size="sm"
-            min="1"
-            :max="perk.ranks"
-            placeholder="1"
-            step="1"
-            inline
-        ></b-form-spinbutton>
-      </span>
-    </template>
-  </b-card>
+  <div :class="{'hidden': !perkVisible(perk, this.player), 'row': true}">
+    <div class="col-sm">
+      <button 
+        class="btn btn-outline-primary"
+        @click="addPerk({perkId: perk.id, level: perk.level_requirement})"
+      >+</button>
+      {{ perk.name  }}
+    </div>
+    <div class="col-sm benefit">
+      {{ perk.benefit }}
+    </div>
+    <div class="col-sm">
+      {{ reqString(perk) }}
+    </div>
+  </div>
 </template>
 
 <script>
   import { mapActions, mapGetters } from 'vuex';
+  import perks from '../lib/perks.js';
 
   export default {
       name: 'Perk',
       props: ['perk'],
-      computed: mapGetters(['player']),
+      computed: {
+        ...mapGetters(['player']),
+      },
       methods: {
-        ...mapActions(['addPerk', 'removePerk', 'setPerkLevel', 'setPerkRank']),
+        ...mapActions(['addPerk']),
         togglePerk(checked, perkId) {
           if (checked) {
             const level = document.getElementById("sb-" + perkId + "-level")
@@ -64,7 +40,9 @@
           } else {
             this.removePerk(perkId);
           }
-        }
+        },
+        perkVisible: (perk, player) => perks.isVisible(perk, player),
+        reqString: (perk) => perks.reqString(perk)
       }
   }
 </script>
@@ -73,6 +51,10 @@
   .perk-card {
     width: 34em;
     min-height: 12em;
+  }
+
+  .hidden {
+    display: none;
   }
 
   .penalty {

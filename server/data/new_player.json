@@ -55,18 +55,18 @@
             }
         },
         "base_specials": {
-            "agility": 1,
-            "charisma": 1,
-            "endurance": 1,
-            "intelligence": 1,
-            "luck": 1,
-            "perception": 1,
-            "strength": 1
+            "agility": 5,
+            "charisma": 5,
+            "endurance": 5,
+            "intelligence": 5,
+            "luck": 5,
+            "perception": 5,
+            "strength": 5
         },
         "books": [],
         "gender": "male",
         "implants": [],
-        "level": 2,
+        "level": 50,
         "name": "Courier",
         "perks": [],
         "random_books": 4,

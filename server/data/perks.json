@@ -11,7 +11,7 @@
             "level_requirement": 2,
             "name": "Lady Killer",
             "name_female": "Black Widow",
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -26,7 +26,7 @@
             "level_requirement": 2,
             "name": "Confirmed Bachelor",
             "name_female": "Cherchez La Femme",
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -40,7 +40,7 @@
             "level_requirement": 2,
             "name": "Friend of the Night",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "sneak": 30
             },
@@ -56,7 +56,7 @@
             "level_requirement": 2,
             "name": "Heave, Ho!",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "explosives": 30
             },
@@ -74,7 +74,7 @@
             "level_requirement": 2,
             "name": "Hunter",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 30
             },
@@ -84,11 +84,119 @@
             "benefit": "You can put a single point into any of your SPECIAL attributes",
             "effects": [],
             "expansion": "base",
-            "id": "intense_training",
+            "id": "intense_training_1",
             "level_requirement": 2,
-            "name": "Intense Training",
+            "name": "Intense Training I",
             "name_female": null,
-            "ranks": 10,
+            "required_perk": null,
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_2",
+            "level_requirement": 2,
+            "name": "Intense Training II",
+            "name_female": null,
+            "required_perk": "intense_training_1",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_3",
+            "level_requirement": 2,
+            "name": "Intense Training III",
+            "name_female": null,
+            "required_perk": "intense_training_2",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_4",
+            "level_requirement": 2,
+            "name": "Intense Training IV",
+            "name_female": null,
+            "required_perk": "intense_training_3",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_5",
+            "level_requirement": 2,
+            "name": "Intense Training V",
+            "name_female": null,
+            "required_perk": "intense_training_4",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_6",
+            "level_requirement": 2,
+            "name": "Intense Training VI",
+            "name_female": null,
+            "required_perk": "intense_training_5",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_7",
+            "level_requirement": 2,
+            "name": "Intense Training VII",
+            "name_female": null,
+            "required_perk": "intense_training_6",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_8",
+            "level_requirement": 2,
+            "name": "Intense Training VIII",
+            "name_female": null,
+            "required_perk": "intense_training_7",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_9",
+            "level_requirement": 2,
+            "name": "Intense Training IX",
+            "name_female": null,
+            "required_perk": "intense_training_8",
+            "required_skills": {},
+            "required_specials": {}
+        },
+        {
+            "benefit": "You can put a single point into any of your SPECIAL attributes",
+            "effects": [],
+            "expansion": "base",
+            "id": "intense_training_10",
+            "level_requirement": 2,
+            "name": "Intense Training X",
+            "name_female": null,
+            "required_perk": "intense_training_9",
             "required_skills": {},
             "required_specials": {}
         },
@@ -100,7 +208,7 @@
             "level_requirement": 2,
             "name": "Rapid Reload",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "guns": 30
             },
@@ -116,7 +224,7 @@
             "level_requirement": 2,
             "name": "Retention",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "intelligence": 5
@@ -126,11 +234,39 @@
             "benefit": "You gain an additional 10% whenever experience points are earned",
             "effects": [],
             "expansion": "base",
-            "id": "swift_learner",
+            "id": "swift_learner_1",
             "level_requirement": 2,
-            "name": "Swift Learner",
+            "name": "Swift Learner I",
             "name_female": null,
-            "ranks": 3,
+            "required_perk": null,
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 4
+            }
+        },
+        {
+            "benefit": "You gain an additional 10% whenever experience points are earned",
+            "effects": [],
+            "expansion": "base",
+            "id": "swift_learner_2",
+            "level_requirement": 2,
+            "name": "Swift Learner II",
+            "name_female": null,
+            "required_perk": "swift_learner_1",
+            "required_skills": {},
+            "required_specials": {
+                "intelligence": 4
+            }
+        },
+        {
+            "benefit": "You gain an additional 10% whenever experience points are earned",
+            "effects": [],
+            "expansion": "base",
+            "id": "swift_learner_3",
+            "level_requirement": 2,
+            "name": "Swift Learner III",
+            "name_female": null,
+            "required_perk": "swift_learner_2",
             "required_skills": {},
             "required_specials": {
                 "intelligence": 4
@@ -146,7 +282,7 @@
             "level_requirement": 4,
             "name": "Cannibal",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -158,7 +294,7 @@
             "level_requirement": 4,
             "name": "Comprehension",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "intelligence": 4
@@ -172,7 +308,7 @@
             "level_requirement": 4,
             "name": "Educated",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "intelligence": 4
@@ -188,7 +324,7 @@
             "level_requirement": 4,
             "name": "Entomologist",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 45
             },
@@ -206,7 +342,7 @@
             "level_requirement": 4,
             "name": "Rad Child",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 70
             },
@@ -222,7 +358,7 @@
             "level_requirement": 4,
             "name": "Run 'n Gun",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -234,7 +370,7 @@
             "level_requirement": 4,
             "name": "Travel Light",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 45
             },
@@ -248,7 +384,7 @@
             "level_requirement": 6,
             "name": "Bloody Mess",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -256,11 +392,39 @@
             "benefit": "+20% damage with explosives",
             "effects": [],
             "expansion": "base",
-            "id": "demolition_expert",
+            "id": "demolition_expert_1",
             "level_requirement": 6,
-            "name": "Demolition Expert",
+            "name": "Demolition Expert I",
             "name_female": null,
-            "ranks": 3,
+            "required_perk": null,
+            "required_skills": {
+                "explosives": 50
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+20% damage with explosives",
+            "effects": [],
+            "expansion": "base",
+            "id": "demolition_expert_2",
+            "level_requirement": 6,
+            "name": "Demolition Expert II",
+            "name_female": null,
+            "required_perk": "demolition_expert_1",
+            "required_skills": {
+                "explosives": 50
+            },
+            "required_specials": {}
+        },
+        {
+            "benefit": "+20% damage with explosives",
+            "effects": [],
+            "expansion": "base",
+            "id": "demolition_expert_3",
+            "level_requirement": 6,
+            "name": "Demolition Expert III",
+            "name_female": null,
+            "required_perk": "demolition_expert_2",
             "required_skills": {
                 "explosives": 50
             },
@@ -276,7 +440,7 @@
             "level_requirement": 6,
             "name": "Ferocious Loyalty",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "charisma": 6
@@ -292,7 +456,7 @@
             "level_requirement": 6,
             "name": "Fortune Finder",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -306,7 +470,7 @@
             "level_requirement": 6,
             "name": "Gunslinger",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -321,7 +485,7 @@
             "level_requirement": 6,
             "name": "Hand Loader",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "repair": 70
             },
@@ -337,7 +501,7 @@
             "level_requirement": 6,
             "name": "Lead Belly",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 5
@@ -353,7 +517,7 @@
             "level_requirement": 6,
             "name": "Shotgun Surgeon",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -367,7 +531,7 @@
             "level_requirement": 6,
             "name": "The Professional",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "sneak": 70
             },
@@ -377,11 +541,25 @@
             "benefit": "+3 DT permanently",
             "effects": [],
             "expansion": "base",
-            "id": "toughness",
+            "id": "toughness I",
             "level_requirement": 6,
-            "name": "Toughness",
+            "name": "Toughness_1",
             "name_female": null,
-            "ranks": 2,
+            "required_perk": null,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 5
+            }
+        },
+        {
+            "benefit": "+3 DT permanently",
+            "effects": [],
+            "expansion": "base",
+            "id": "toughness_2",
+            "level_requirement": 6,
+            "name": "Toughness II",
+            "name_female": null,
+            "required_perk": "Toughness_1",
             "required_skills": {},
             "required_specials": {
                 "endurance": 5
@@ -398,7 +576,7 @@
             "level_requirement": 6,
             "name": "Vigilant Recycler",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "science": 70
             },
@@ -414,7 +592,7 @@
             "level_requirement": 8,
             "name": "Commando",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -428,7 +606,7 @@
             "level_requirement": 8,
             "name": "Cowboy",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "guns": 45,
                 "melee": 45
@@ -446,7 +624,7 @@
             "level_requirement": 8,
             "name": "Living Anatomy",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "medicine": 70
             },
@@ -462,7 +640,7 @@
             "level_requirement": 8,
             "name": "Pack Rat",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "barter": 70
             },
@@ -480,7 +658,7 @@
             "level_requirement": 8,
             "name": "Quick Draw",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "agility": 5
@@ -494,7 +672,7 @@
             "level_requirement": 8,
             "name": "Rad Resistance",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 40
             },
@@ -512,7 +690,7 @@
             "level_requirement": 8,
             "name": "Scrounger",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "luck": 5
@@ -529,7 +707,7 @@
             "level_requirement": 8,
             "name": "Stonewall",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 6,
@@ -544,7 +722,7 @@
             "level_requirement": 8,
             "name": "Strong Back",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "edurance": 5,
@@ -562,7 +740,7 @@
             "level_requirement": 8,
             "name": "Super Slam!",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "melee_weapons": 45
             },
@@ -580,7 +758,7 @@
             "level_requirement": 8,
             "name": "Terrifying Presence",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "speech": 70
             },
@@ -594,21 +772,39 @@
             "level_requirement": 10,
             "name": "Here and Now",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
         {
-            "benefit": "On 1st rank, hostile animals become friendly. On 2nd rank they come to your aid against enemies except against other animals",
+            "benefit": "Hostile animals become friendly",
             "effects": [
                 "Hostile animals become friendly"
             ],
             "expansion": "base",
-            "id": "animal_friend",
+            "id": "animal_friend_1",
             "level_requirement": 10,
-            "name": "Animal Friend",
+            "name": "Animal Friend I",
             "name_female": null,
-            "ranks": 2,
+            "required_perk": null,
+            "required_skills": {
+                "survival": 45
+            },
+            "required_specials": {
+                "charisma": 6
+            }
+        },
+        {
+            "benefit": "Hostile animals come to your aid against enemies except against other animals",
+            "effects": [
+                "Hostile animals come to your aid against enemies except against other animals"
+            ],
+            "expansion": "base",
+            "id": "animal_friend_2",
+            "level_requirement": 10,
+            "name": "Animal Friend II",
+            "name_female": null,
+            "required_perk": "animal_friend_1",
             "required_skills": {
                 "survival": 45
             },
@@ -624,7 +820,7 @@
             "level_requirement": 10,
             "name": "Finesse",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -636,7 +832,7 @@
             "level_requirement": 10,
             "name": "Math Wrath",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -650,7 +846,7 @@
             "level_requirement": 10,
             "name": "Miss Fortune",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "luck": 5
@@ -666,7 +862,7 @@
             "level_requirement": 10,
             "name": "Mister Sandman",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "sneak": 60
             },
@@ -682,7 +878,7 @@
             "level_requirement": 10,
             "name": "Mysterious Stranger",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "luck": 5
@@ -698,7 +894,7 @@
             "level_requirement": 10,
             "name": "Nerd Rage!",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "science": 70
             },
@@ -716,7 +912,7 @@
             "level_requirement": 10,
             "name": "Night Person",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -730,7 +926,7 @@
             "level_requirement": 10,
             "name": "Plasma Spaz",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "energy_weapons": 70
             },
@@ -746,7 +942,7 @@
             "level_requirement": 12,
             "name": "Fast Metabolism",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -760,7 +956,7 @@
             "level_requirement": 12,
             "name": "Ghastly Scavenger",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -774,7 +970,7 @@
             "level_requirement": 12,
             "name": "Hit the Deck",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "explosives": 70
             },
@@ -788,7 +984,7 @@
             "level_requirement": 12,
             "name": "Life Giver",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 6
@@ -804,7 +1000,7 @@
             "level_requirement": 12,
             "name": "Long Haul",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "barter": 70
             },
@@ -822,7 +1018,7 @@
             "level_requirement": 12,
             "name": "Piercing Strike",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "unarmed": 70
             },
@@ -838,7 +1034,7 @@
             "level_requirement": 12,
             "name": "Pyromaniac",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "explosives": 60
             },
@@ -855,7 +1051,7 @@
             "level_requirement": 12,
             "name": "Robotics Expert",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "science": 70
             },
@@ -871,7 +1067,7 @@
             "level_requirement": 12,
             "name": "Silent Running",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "sneak": 50
             },
@@ -889,7 +1085,7 @@
             "level_requirement": 12,
             "name": "Sniper",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "agility": 6,
@@ -906,7 +1102,7 @@
             "level_requirement": 12,
             "name": "Splash Damage",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "explosives": 70
             },
@@ -922,7 +1118,7 @@
             "level_requirement": 12,
             "name": "Unstoppable Force",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "melee_weapons": 90
             },
@@ -938,7 +1134,7 @@
             "level_requirement": 14,
             "name": "Adamantium Skeleton",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -952,7 +1148,7 @@
             "level_requirement": 14,
             "name": "Center of Mass",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "guns": 70
             },
@@ -968,7 +1164,7 @@
             "level_requirement": 14,
             "name": "Chemist",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "medicine": 60
             },
@@ -984,7 +1180,7 @@
             "level_requirement": 14,
             "name": "Jury Rigging",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "repair": 90
             },
@@ -1000,7 +1196,7 @@
             "level_requirement": 14,
             "name": "Light Step",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "agility": 6,
@@ -1017,7 +1213,7 @@
             "level_requirement": 14,
             "name": "Purifier",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1025,11 +1221,25 @@
             "benefit": "+15 Action Points",
             "effects": [],
             "expansion": "base",
-            "id": "action_boy",
+            "id": "action_boy_1",
             "level_requirement": 16,
-            "name": "Action Boy",
-            "name_female": "Action Girl",
-            "ranks": 2,
+            "name": "Action Boy I",
+            "name_female": "Action Girl I",
+            "required_perk": null,
+            "required_skills": {},
+            "required_specials": {
+                "agility": 6
+            }
+        },
+        {
+            "benefit": "+15 Action Points",
+            "effects": [],
+            "expansion": "base",
+            "id": "action_boy_2",
+            "level_requirement": 16,
+            "name": "Action Boy II",
+            "name_female": "Action Girl II",
+            "required_perk": "action_boy_1",
             "required_skills": {},
             "required_specials": {
                 "agility": 6
@@ -1043,7 +1253,7 @@
             "level_requirement": 16,
             "name": "Better Criticals",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "luck": 6,
@@ -1060,7 +1270,7 @@
             "level_requirement": 16,
             "name": "Chem Resistant",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "medicine": 60
             },
@@ -1076,7 +1286,7 @@
             "level_requirement": 16,
             "name": "Meltdown",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "energy_weapons": 90
             },
@@ -1090,7 +1300,7 @@
             "level_requirement": 16,
             "name": "Tag!",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1104,7 +1314,7 @@
             "level_requirement": 16,
             "name": "Weapon Handling",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1118,7 +1328,7 @@
             "level_requirement": 18,
             "name": "Computer Whiz",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "science": 70
             },
@@ -1136,7 +1346,7 @@
             "level_requirement": 18,
             "name": "Concentrated Fire",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "energy_weapons": 60,
                 "guns": 60
@@ -1153,7 +1363,7 @@
             "level_requirement": 18,
             "name": "Infiltrator",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "lockpick": 70
             },
@@ -1171,7 +1381,7 @@
             "level_requirement": 18,
             "name": "Paralyzing Palm",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "unarmed": 70
             },
@@ -1187,7 +1397,7 @@
             "level_requirement": 20,
             "name": "Explorer",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1201,7 +1411,7 @@
             "level_requirement": 20,
             "name": "Grim Reaper's Sprint",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1213,7 +1423,7 @@
             "level_requirement": 20,
             "name": "Ninja",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "melee_weapons": 80,
                 "sneak": 80
@@ -1230,7 +1440,7 @@
             "level_requirement": 20,
             "name": "Solar Powered",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 7
@@ -1246,7 +1456,7 @@
             "level_requirement": 22,
             "name": "Laser Commander",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "energy_weapons": 90
             },
@@ -1262,7 +1472,7 @@
             "level_requirement": 22,
             "name": "Nuka Chemist",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "science": 90
             },
@@ -1278,7 +1488,7 @@
             "level_requirement": 22,
             "name": "Spray and Pray",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1290,7 +1500,7 @@
             "level_requirement": 24,
             "name": "Slayer",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "unarmed": 90
             },
@@ -1307,7 +1517,7 @@
             "level_requirement": 26,
             "name": "Nerves of Steel",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "agility": 7
@@ -1321,7 +1531,7 @@
             "level_requirement": 28,
             "name": "Rad Absorption",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 7
@@ -1335,7 +1545,7 @@
             "level_requirement": 2,
             "name": "In Shining Armor",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "repair": 20,
                 "science": 70
@@ -1352,7 +1562,7 @@
             "level_requirement": 2,
             "name": "Junk Rounds",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "repair": 45
             },
@@ -1368,7 +1578,7 @@
             "level_requirement": 2,
             "name": "Light Touch",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "repair": 45
             },
@@ -1387,7 +1597,7 @@
             "level_requirement": 2,
             "name": "Old World Gourmet",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 45
             },
@@ -1405,7 +1615,7 @@
             "level_requirement": 10,
             "name": "And Stay Back",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "guns": 70
             },
@@ -1421,7 +1631,7 @@
             "level_requirement": 12,
             "name": "Heavyweight",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "strength": 7
@@ -1437,7 +1647,7 @@
             "level_requirement": 12,
             "name": "Hobbler",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "perception": 7
@@ -1453,7 +1663,7 @@
             "level_requirement": 8,
             "name": "Grunt",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "explosives": 20,
                 "guns": 45
@@ -1468,7 +1678,7 @@
             "level_requirement": 8,
             "name": "Home on the Range",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 70
             },
@@ -1484,7 +1694,7 @@
             "level_requirement": 8,
             "name": "Sneering Imperialist",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1498,7 +1708,7 @@
             "level_requirement": 8,
             "name": "Tribal Wisdom",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 70
             },
@@ -1514,7 +1724,7 @@
             "level_requirement": 10,
             "name": "Fight the Power!",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1528,7 +1738,7 @@
             "level_requirement": 20,
             "name": "Eye for Eye",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1542,7 +1752,7 @@
             "level_requirement": 20,
             "name": "Atomic!",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 6
@@ -1558,7 +1768,7 @@
             "level_requirement": 20,
             "name": "Mile in Their Shoes",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 25
             },
@@ -1574,23 +1784,39 @@
             "level_requirement": 20,
             "name": "Them's Good Eatin'",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 55
             },
             "required_specials": {}
         },
         {
-            "benefit": "You gain a non-addictive subdermal turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10 (activated in the Pip-Boy inventory)",
+            "benefit": "You gain a non-addictive subdermal turbo (chem) injector. Effect lasts 2 seconds, may be used 5 times a day.",
             "effects": [
-                "Non-addictive subdermal turbo (chem) injector. This perk may be taken twice, with the second rank increasing the effect from 2 to 3 seconds and the uses per day from 5 to 10"
+                "Non-addictive subdermal turbo (chem) injector. Effect lasts 2 seconds, may be used 5 times a day."
             ],
             "expansion": "old_world_blues",
-            "id": "implant_grx",
+            "id": "implant_grx_1",
             "level_requirement": 30,
-            "name": "Implant GRX",
+            "name": "Implant GRX I",
             "name_female": null,
-            "ranks": 2,
+            "required_perk": null,
+            "required_skills": {},
+            "required_specials": {
+                "endurance": 8
+            }
+        },
+        {
+            "benefit": "You gain a non-addictive subdermal turbo (chem) injector. Effect lasts 3 seconds, may be used 10 times a day.",
+            "effects": [
+                "Non-addictive subdermal turbo (chem) injector. Effect lasts 3 seconds, may be used 10 times a day."
+            ],
+            "expansion": "old_world_blues",
+            "id": "implant_grx_2",
+            "level_requirement": 30,
+            "name": "Implant GRX II",
+            "name_female": null,
+            "required_perk": "implant_grx_1",
             "required_skills": {},
             "required_specials": {
                 "endurance": 8
@@ -1606,7 +1832,7 @@
             "level_requirement": 12,
             "name": "Alertness",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1620,7 +1846,7 @@
             "level_requirement": 18,
             "name": "Walker Instinct",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 50
             },
@@ -1636,7 +1862,7 @@
             "level_requirement": 22,
             "name": "Irradiated Beauty",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 8
@@ -1652,7 +1878,7 @@
             "level_requirement": 22,
             "name": "Voracious Reader",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "intelligence": 7
@@ -1666,7 +1892,7 @@
             "level_requirement": 26,
             "name": "Lessons Learned",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "intelligence": 6
@@ -1680,7 +1906,7 @@
             "level_requirement": 26,
             "name": "Tunnel Runner",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "agility": 8
@@ -1696,7 +1922,7 @@
             "level_requirement": 28,
             "name": "Roughin' It",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {
                 "survival": 100
             },
@@ -1710,7 +1936,7 @@
             "level_requirement": 30,
             "name": "Burden to Bear",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {
                 "endurance": 6,
@@ -1727,7 +1953,7 @@
             "level_requirement": 36,
             "name": "Broad Daylight",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1742,7 +1968,7 @@
             "level_requirement": 40,
             "name": "Certified Tech",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1754,7 +1980,7 @@
             "level_requirement": 50,
             "name": "Ain't Like That Now",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1768,7 +1994,7 @@
             "level_requirement": 50,
             "name": "Just Lucky I'm Alive",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1780,7 +2006,7 @@
             "level_requirement": 50,
             "name": "Thought You Died",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         },
@@ -1794,7 +2020,7 @@
             "level_requirement": 6,
             "name": "Mad Bomber",
             "name_female": null,
-            "ranks": 1,
+            "required_perk": null,
             "required_skills": {},
             "required_specials": {}
         }

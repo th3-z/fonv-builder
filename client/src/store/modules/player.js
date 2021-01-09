@@ -2,8 +2,10 @@ import axios from 'axios';
 
 const state = {
     player: {
+        // FIXME
         traits: [],
         perks: [],
+        implants: [],
         base_specials: {}
     }
 };

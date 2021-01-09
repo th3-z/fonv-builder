@@ -5,7 +5,8 @@ const state = {
 };
 
 const getters = {
-    perks: (state) => state.perks
+    perks: (state) => state.perks,
+    getPerk: (state) => (perk_id) => state.perks.find(perk => perk.id == perk_id)
 };
 
 const actions = {
@@ -14,26 +15,19 @@ const actions = {
         commit('setPerks', response.data.perks);
     },
 
-    addPerk({ commit, rootState }, perkId) {
-        switch (perkId) {
-            default:
-                commit('addPerkGeneric', {
-                    player: rootState.player.player,
-                    perk_id: perkId
-                });
-                break;
-        }
+    addPerk({ commit, rootState }, payload) {
+        commit('addPerkGeneric', {
+            player: rootState.player.player,
+            perk_id: payload.perkId,
+            level: payload.level
+        });
     },
 
     removePerk({commit, rootState}, perkId) {
-        switch (perkId) {
-            default:
-                commit('removePerkGeneric', {
-                    player: rootState.player.player,
-                    perk_id: perkId
-                });
-                break;
-        }
+        commit('removePerkGeneric', {
+            player: rootState.player.player,
+            perk_id: perkId
+        });
     },
 
     setPerkLevel({commit, rootState}, payload) {
@@ -41,14 +35,6 @@ const actions = {
             player: rootState.player.player,
             perk_id: payload.perk_id,
             level: payload.level
-        });
-    },
-
-    setPerkRank({commit, rootState}, payload) {
-        commit('setPerkRank', {
-            player: rootState.player.player,
-            perk_id: payload.perk_id,
-            rank: payload.rank
         });
     }
 };
@@ -62,17 +48,10 @@ const mutations = {
         ).level = payload.level
     },
 
-    setPerkRank(state, payload) {
-        payload.player.perks.find(
-            perk => perk.id === payload.perk_id
-        ).rank = payload.rank
-    },
-
     addPerkGeneric(state, payload) {
         payload.player.perks.push({
             id: payload.perk_id,
-            level: 0,
-            rank: 1
+            level: payload.level
         });
     },
 
