@@ -33,7 +33,9 @@ export default {
     },
     methods: {
         remainingImplants() {
-            return this.player.base_specials.endurance - this.player.implants.length
+            // End implant doesn't count towards special when adding implants
+            const hasEndImplant = this.player.implants.find(implant => implant.id == "endurance_implant")? 1: 0
+            return this.player.base_specials.endurance - this.player.implants.length - hasEndImplant
         }
     }
 }

@@ -17,6 +17,11 @@ function special(player, special) {
         bonus += 1
     }
 
+    // Intense trainings
+    bonus += player.perks.filter(
+        perk => perk.id.substring(0, 16) == "intense_training" && perk.special == special.id
+    ).length
+
     return Math.min(
         10,
         player.base_specials[special.id] + bonus - penalty

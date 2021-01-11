@@ -31,12 +31,29 @@ export default {
             const baseSkillPoints = this.player.skill_points;
 
             // find int implant
+            const intImplant = this.player.implants.find(implant => implant.id == "intelligence_implant")
 
             // find intense trainings for int
+            const intTrainings = this.player.perks.filter(
+                perk => perk.id.substring(0,16) == "intense_training" && perk.special == "intelligence"
+            )
 
-            let earnedSkillPoints = 
-                (this.player.level -  1)  // No points are earned for level 1
-                * (10 + this.player.base_specials.intelligence*0.5);
+            // find educated
+            const educatedPerk = this.player.perks.find(perk => perk.id == "educated")
+
+            let earnedSkillPoints = 0
+
+            for (let level = 2; level <= this.player.level; level++) {
+                let intAtLevel = this.player.base_specials.intelligence
+                intAtLevel += intTrainings.filter(intTraining => intTraining.level < level).length
+                intAtLevel += intImplant? (intImplant.level < level? 1: 0): 0
+                intAtLevel = Math.min(
+                    intAtLevel,
+                    10
+                )
+
+                earnedSkillPoints += 10 + intAtLevel*0.5 + (educatedPerk? (educatedPerk.level < level? 1: 0): 0)
+            }
 
             let skillsTotal = 0;
             for(let skill in this.player.base_skills) {
@@ -48,7 +65,7 @@ export default {
             return Math.floor((baseSkillPoints+earnedSkillPoints) - skillsTotal);
         },
         remainingTags() {
-            const hasTag = this.player.perks.includes("tag");
+            const hasTag = this.player.perks.find(perk => perk.id == "tag");
             let remainingTags = 3 + (hasTag? 1: 0);
 
             for(let skill in this.player.base_skills) {
