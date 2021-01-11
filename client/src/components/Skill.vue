@@ -6,8 +6,7 @@
             size="sm"
             :value="computedSkill(skill)"
             @change="changeSkill($event, skill)"
-            min="15"
-            max="100"
+            :min="computedSkill(skill) - player.base_skills[skill.id].value + 15"
             inline
         ></b-form-spinbutton>
         <b-form-checkbox

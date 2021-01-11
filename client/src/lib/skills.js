@@ -14,8 +14,6 @@ function skill(player, skill) {
     // Luck
     bonus += Math.ceil(player.base_specials.luck/2)
 
-    console.log(bonus)
-
     // Books
     const has_comprehension = player.perks.find(perk => perk.id == "comprehension")
     for (let book in player.books) {

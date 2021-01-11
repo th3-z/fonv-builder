@@ -5,7 +5,7 @@
         class="btn btn-outline-primary"
         @click="addPerk({perkId: perk.id, level: perk.level_requirement})"
       >+</button>
-      {{ perk.name  }}
+      {{ player.gender == "female" && perk.name_female? perk.name_female: perk.name  }}
     </div>
     <div class="col-sm benefit">
       {{ perk.benefit }}

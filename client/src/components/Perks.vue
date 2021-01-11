@@ -7,7 +7,8 @@
                         class="btn btn-outline-primary"
                         @click="removePerk(perk.id)"
                     >-</button>
-                    <p>{{ getPerk(perk.id).name }}</p>
+                    <!-- FIXME -->
+                    <p>{{ player.gender == "female" && getPerk(perk.id).name_female? getPerk(perk.id).name_female: getPerk(perk.id).name  }}</p>
                 </div>
                 <div class="col-sm">
                     <p>{{ getPerk(perk.id).benefit }}</p>
