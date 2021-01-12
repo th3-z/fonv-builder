@@ -11,7 +11,12 @@
       {{ perk.benefit }}
     </div>
     <div class="col-sm">
-      {{ reqString(perk) }}
+      <ul>
+        <li :key="requirement.idx" v-for="requirement in reqList(perk, player)" v-bind:class="{'penalty':requirement.ok == false}">
+          {{ requirement.requirement }}
+        </li>
+      </ul>
+      
     </div>
   </div>
 </template>
@@ -42,7 +47,7 @@
           }
         },
         perkVisible: (perk, player) => perks.isVisible(perk, player),
-        reqString: (perk) => perks.reqString(perk)
+        reqList: (perk, player) => perks.reqList(perk, player)
       }
   }
 </script>

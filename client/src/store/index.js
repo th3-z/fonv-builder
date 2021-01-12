@@ -6,6 +6,8 @@ import traits from './modules/traits'
 import perks from './modules/perks'
 import books from './modules/books'
 import implants from './modules/implants'
+import skills from './modules/skills'
+import specials from './modules/specials'
 
 Vue.use(Vuex)
 
@@ -21,6 +23,8 @@ export default new Vuex.Store({
     traits,
     perks,
     books,
-    implants
+    implants,
+    skills,
+    specials
   }
 })

@@ -6,7 +6,8 @@ const state = {
         traits: [],
         perks: [],
         implants: [],
-        base_specials: {}
+        base_specials: {},
+        base_skills: {}
     }
 };
 

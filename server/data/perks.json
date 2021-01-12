@@ -541,9 +541,9 @@
             "benefit": "+3 DT permanently",
             "effects": [],
             "expansion": "base",
-            "id": "toughness I",
+            "id": "toughness_1",
             "level_requirement": 6,
-            "name": "Toughness_1",
+            "name": "Toughness I",
             "name_female": null,
             "required_perk": null,
             "required_skills": {},
@@ -559,7 +559,7 @@
             "level_requirement": 6,
             "name": "Toughness II",
             "name_female": null,
-            "required_perk": "Toughness_1",
+            "required_perk": "toughness_1",
             "required_skills": {},
             "required_specials": {
                 "endurance": 5

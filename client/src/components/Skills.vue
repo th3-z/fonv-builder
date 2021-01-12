@@ -18,7 +18,6 @@
 <script>
 import Skill from './Skill.vue'
 import { mapGetters } from 'vuex';
-import axios from 'axios';
 
 export default {
     name: "Skills",
@@ -26,7 +25,7 @@ export default {
         Skill
     },
     computed: {
-        ...mapGetters(['player']),
+        ...mapGetters(['player', 'skills']),
         remainingSkillPoints() {
             const baseSkillPoints = this.player.skill_points;
 
@@ -77,11 +76,6 @@ export default {
             return remainingTags;
         }
     },
-    data() {
-        return {
-            skills: []
-        }
-    },
     methods: {
         hasComprehension() {
             if (this.player.perks.find(perk => perk.id == "comprehension")) {
@@ -89,11 +83,6 @@ export default {
             }
             return false
         }
-    },
-    created() {
-        axios.get(process.env.VUE_APP_ROOT_API + "/skills")
-            .then(res => this.skills = res.data.skills)
-            .catch(err => console.log(err));
     }
 }
 </script>

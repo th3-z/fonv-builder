@@ -59,7 +59,7 @@
       BasicInfo
     },
     methods: {
-        ...mapActions(['newPlayer', 'loadTraits', 'loadPerks', 'loadBooks', 'loadImplants'])
+        ...mapActions(['newPlayer', 'loadTraits', 'loadPerks', 'loadBooks', 'loadImplants', 'loadSkills', 'loadSpecials'])
     },
     created() {
         this.newPlayer();
@@ -67,6 +67,8 @@
         this.loadPerks();
         this.loadBooks();
         this.loadImplants();
+        this.loadSkills();
+        this.loadSpecials();
     },
   }
 </script>
